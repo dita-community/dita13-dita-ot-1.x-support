@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "topic.dtd">
+<topic id="assessment_o35_nvc_jp">
+ <title>Learning Domain Test</title>
+ <shortdesc>Provides test cases for learning domain interaction elements (questions and answers)</shortdesc>
+  <body>
+    <p>The "learning 1" domain provides interactions (assessments or questions and answers) as defined in DITA 1.2. The "learning 2" domain is new with DITA 1.3 and extends the content models of the assessments to allow block elements in questions, answers, and feedback.</p>
+  </body>
+</topic>
