@@ -74,7 +74,8 @@
 		>
 		<copy todir="${plugin.dist}">
 			<fileset dir="${plugin.src}">
-				<include name="org.dita.*/**"/> 
+				<include name="org.dita-community.dita13.*/**"/> 
+				<include name="org.oasis-open.dita.dita13.doctypes/**"/> 
 				<exclude name="*.zip"/> 
 			</fileset>
 		</copy>

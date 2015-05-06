@@ -14,6 +14,7 @@
   <xsl:include href="dita13base2html.xsl"/>
   <xsl:include href="dita-troubleshooting2html.xsl"/>
   <xsl:include href="equation-d2html.xsl"/>
+  <xsl:include href="learning2domain2html.xsl"/>
   <xsl:include href="mathml-d2html.xsl"/>
   <xsl:include href="svg-d2html.xsl"/>
   <xsl:include href="xml-d2html.xsl"/>

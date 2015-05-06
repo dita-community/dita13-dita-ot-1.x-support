@@ -159,8 +159,6 @@
   />
 
   
-  <xsl:include href="plugin:org.dita.dita13base.html:xsl/dita13base2html.xsl"/>
-  
   <xsl:template match="*[contains(@class, ' learningInteractionBase2-d/lcInteractionBase2 ')]" priority="100">
     <xsl:param name="lc:doDebug" as="xs:boolean" tunnel="yes" select="false()"/>
     
