@@ -74,7 +74,7 @@
       <lcHotspot id="lcHotspot_ec5_yxc_jp">
         <lcQuestion>This is a hotspot question. This is a diorama of the Apollo 11 moon landing, using a real Lunar Lander that was never sent to space. It represents the initial egress of the astronaunts onto the lunar surface. Based on your knowledge of the Apollo 11 mission, select Neil Armstrong.</lcQuestion>
         <lcHotspotMap id="lcHotspotMap_kd5_yxc_jp">
-          <image href="media/moon-landing-01.JPG" id="image_l5g_5yc_jp">
+          <image href="../../topics/media/moon-landing-01.JPG" id="image_l5g_5yc_jp">
             <alt>Diorama of the Apollo 11 moon landing (National Air and Space Museum)</alt>
           </image>
           <lcArea id="aldrin">

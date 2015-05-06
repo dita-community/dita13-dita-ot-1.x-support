@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA 1.3 Map//EN" "map.dtd">
+<map>
+ <title>DITA 1.3 Vocabulary Support Tests</title>
+  <mapref
+    href="learning/learningDomainTest.ditamap"/>
+  <mapref
+    href="troubleshooting/troubleshooting-tests.ditamap"/>
+  <mapref
+    href="domains/1.3domains-tests.ditamap"/>
+</map>

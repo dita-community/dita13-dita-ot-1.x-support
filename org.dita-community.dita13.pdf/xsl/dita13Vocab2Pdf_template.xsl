@@ -13,6 +13,7 @@
   <xsl:include href="dita13base2fo.xsl"/>
   <xsl:include href="dita-troubleshooting2fo.xsl"/>
   <xsl:include href="equation-d2fo.xsl"/>
+  <xsl:include href="hi-d2fo.xsl"/>
   <xsl:include href="learning2domain2fo.xsl"/>
   <xsl:include href="mathml-d2fo.xsl"/>
   <xsl:include href="svg-d2fo.xsl"/>

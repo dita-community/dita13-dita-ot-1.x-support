@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA 1.3 Map//EN" "map.dtd">
+<map>
+ <title>DITA 1.3 Domain Tests</title>
+  <keydef keys="mathml-equation-01"
+     href="mathml.xml#equation-01"
+     format="mathml"     
+  />
+  <keydef keys="svg-graphic-01"
+    href="svg-graphics.xml#graphic-02"
+    format="svg"
+  />
+  <keydef keys="svg-graphic-02"
+    href="svg-graphics.xml#graphic-02"
+    format="svg"
+  />
+  <topicref
+    href="dita13-domain-tests.dita"/>
+</map>
