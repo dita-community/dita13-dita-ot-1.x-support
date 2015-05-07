@@ -48,7 +48,7 @@
         </p>
       </fig>
       <fig>
-        <title>SVG Reference key reference</title>
+        <title>SVG Reference key reference to key "svg-graphic-02"</title>
         <p>
           <svg-container>
             <svgref keyref="svg-graphic-02"/>

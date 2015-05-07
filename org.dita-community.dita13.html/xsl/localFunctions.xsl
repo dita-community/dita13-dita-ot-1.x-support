@@ -3,7 +3,8 @@
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
   xmlns:local="urn:namespace:functions:local"
-  exclude-result-prefixes="xs local xd"
+  xmlns:relpath="http://dita2indesign/functions/relpath"
+  exclude-result-prefixes="xs local xd relpath"
   version="2.0">
   <!-- ===========================================
        Functions common to the 1.3 vocabulary 
@@ -51,7 +52,6 @@
                        then $keyref/../@format 
                        else 'dita'"
           />
-          <xsl:message> + [DEBUG] local:getURIForKeyref: format="<xsl:value-of select="$format"/>"</xsl:message>
           <xsl:variable name="contextDoc" as="document-node()?"
             select="if (not($format = ('dita', 'ditamap'))) 
                        then document($mappath) 
@@ -60,7 +60,6 @@
           <xsl:variable name="uri" as="xs:string?"
             select="string(resolve-uri($keydef/@href, document-uri($contextDoc)))"
           />
-          <xsl:message> + [DEBUG] local:getURIForKeyref: uri="<xsl:value-of select="$uri"/>"</xsl:message>
           <xsl:sequence select="$uri"/>
         </xsl:otherwise>
       </xsl:choose>
@@ -74,7 +73,7 @@
   <xsl:function name="local:resolveRefToDocument" as="document-node()?">
     <xsl:param name="xref" as="element()"/>
     
-    <xsl:variable name="doDebug" as="xs:boolean" select="true()"/> 
+    <xsl:variable name="doDebug" as="xs:boolean" select="false()"/> 
     
     <xsl:variable name="href" select="$xref/@href" as="xs:string?"/>
     <xsl:variable name="keyref" select="$xref/@keyref" as="xs:string?"/>
@@ -87,14 +86,13 @@
                  then local:getURIForKeyref($xref/@keyref) 
                  else ()"
     />
-    <xsl:if test="$doDebug">
-      <xsl:message> + [DEBUG] resolveRefToDocument: keyref=<xsl:value-of select="$xref/@keyref"/></xsl:message>
-      <xsl:message> + [DEBUG] resolveRefToDocument: $keyrefURI="<xsl:value-of select="$keyrefURI"/>"</xsl:message>
-    </xsl:if>
     
     <xsl:variable name="keyResource" as="document-node()?"
        select="local:resolveURIToDocument($refContextNode, $keyrefURI)"
     />
+    <xsl:if test="$doDebug">
+      <xsl:message> + [DEBUG] local:resolveRefToDocument(): contextNode URI: <xsl:value-of select="document-uri(root($refContextNode))"/></xsl:message>
+    </xsl:if>
     <xsl:variable name="hrefResource" as="document-node()?"
        select="local:resolveURIToDocument($refContextNode, $href)"
     />
@@ -136,25 +134,35 @@
   <xsl:function name="local:resolveURIToDocument" as="document-node()?">
     <xsl:param name="context" as="element()"/>
     <xsl:param name="URI" as="xs:string?"/>
-    
-    <xsl:variable name="resourcePart" as="xs:string?"
-      select="if (contains($URI, '#')) then substring-before($URI, '#') else $URI"
-    />
-    <!--        <xsl:message> + [DEBUG] svgref: Resource part = "<xsl:value-of select="$resourcePart"/>"</xsl:message>-->
-    <!-- FIXME: Really need to use functions from relpath utils to do this properly -->
-    <xsl:variable name="fragmentId" as="xs:string?"
-      select="if (contains($URI, '#')) then substring-after($URI, '#') else ''"
-    />
-    <xsl:variable name="refContextNode" as="node()" 
-      select="local:getRefContextNode($context)"
-    />
-    <xsl:variable name="resultDoc" as="document-node()?"
-      select="if ($resourcePart != '') 
-                 then document($resourcePart, $refContextNode) 
-                 else root($refContextNode)"
-    />
-    
-    <xsl:sequence select="$resultDoc"/>
+
+    <xsl:variable name="result" as="document-node()?">
+      <xsl:choose>
+        <xsl:when test="$URI">
+          <xsl:variable name="resourcePart" as="xs:string?"
+            select="relpath:getResourcePartOfUri($URI)"
+          />
+          <!--        <xsl:message> + [DEBUG] svgref: Resource part = "<xsl:value-of select="$resourcePart"/>"</xsl:message>-->
+          <!-- FIXME: Really need to use functions from relpath utils to do this properly -->
+          <xsl:variable name="fragmentId" as="xs:string?"
+            select="relpath:getFragmentId($URI)"
+          />
+          <xsl:variable name="refContextNode" as="node()" 
+            select="local:getRefContextNode($context)"
+          />
+          <xsl:variable name="resultDoc" as="document-node()?"
+            select="if ($resourcePart != '') 
+                       then document($resourcePart, $refContextNode) 
+                       else root($refContextNode)"
+          />
+          
+          <xsl:sequence select="$resultDoc"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:sequence select="()"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:sequence select="$result"/>
 
   </xsl:function>
   
@@ -183,14 +191,10 @@
     <xsl:variable name="result" as="xs:string?">
       <xsl:choose>
         <xsl:when test="$keyResource">
-          <xsl:sequence select="if (contains($keyrefURI, '#')) 
-            then tokenize($keyrefURI, '#')[2]
-            else ()"/>
+          <xsl:sequence select="relpath:getFragmentId($keyrefURI)"/>
         </xsl:when>
         <xsl:when test="$href">
-          <xsl:sequence select="if (contains($href, '#')) 
-            then tokenize($href, '#')[2]
-            else ()"/>
+          <xsl:sequence select="relpath:getFragmentId($href)"/>
         </xsl:when>
         <xsl:otherwise>
           <xsl:sequence select="()"/>
@@ -215,8 +219,6 @@
         select="if ($xref/@format) then $xref/@format else 'dita'"
     />
     <xsl:variable name="xtrf" select="($xref/ancestor-or-self::*[@xtrf])[last()]/@xtrf" as="xs:string?"/>
-    <xsl:message> + [DEBUG] local:getRefContextNode: xtrf="<xsl:value-of select="$xtrf"/>"</xsl:message>
-    <xsl:message> + [DEBUG] local:getRefContextNode: not($format = ('dita', 'ditamap')) and $xtrf="<xsl:value-of select="not($format = ('dita', 'ditamap')) and $xtrf"/>"</xsl:message>
     <xsl:variable name="refContextNode" as="node()?"
       select="if (not($format = ('dita', 'ditamap')) and $xtrf) 
                  then document($xtrf)/* 
