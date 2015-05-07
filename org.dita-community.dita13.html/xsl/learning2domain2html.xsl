@@ -271,7 +271,7 @@
     <xsl:param name="topicref" as="element()" select="." tunnel="yes"/>    
 <!--    <xsl:variable name="lc:doDebug" as="xs:boolean" select="true()"/>-->
     
-    <xsl:if test="true() or $lc:doDebug">
+    <xsl:if test="$lc:doDebug">
       <xsl:message> + [DEBUG] lcAnswerOption:  <xsl:value-of select="substring(., 1, 20)"/></xsl:message>
       <xsl:message> + [DEBUG] lcAnswerOption:    topicref=<xsl:sequence select="$topicref"/></xsl:message>
       <xsl:message> + [DEBUG] lcAnswerOption:    lc:doDebug=<xsl:value-of select="$lc:doDebug"/></xsl:message>
@@ -670,7 +670,7 @@
     
 <!--    <xsl:variable name="doDebug" as="xs:boolean" select="true()"/>-->
     
-    <xsl:if test="true() or $doDebug">
+    <xsl:if test="$doDebug">
       <xsl:message> + [DEBUG] constructInteraction: Starting...</xsl:message>
       <xsl:message> + [DEBUG]       lc:showOnlyFeedback=<xsl:value-of select="$lc:showOnlyFeedback"/></xsl:message>
     </xsl:if>

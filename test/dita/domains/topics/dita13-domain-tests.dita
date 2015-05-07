@@ -32,7 +32,7 @@
       <fig>
         <title>SVG Reference direct URL reference</title>
         <svg-container>
-          <svgref href="svg/three-ovals.svg"/>
+          <svgref href="../svg/three-ovals.svg"/>
         </svg-container>
       </fig>
       <fig>
@@ -162,7 +162,7 @@
         <equation-block>
           <equation-number/>
           <mathml>
-            <mathmlref href="../../media/mathml/mathml-equation-01.mathml"/>
+            <mathmlref href="../mathml/mathml-equation-01.mathml"/>
           </mathml>
         </equation-block>
       </equation-figure>
@@ -172,7 +172,7 @@
         <equation-block>
           <equation-number>3.2</equation-number>
           <mathml>
-            <mathmlref href="mathml/mathml-equation-01.mathml"/>
+            <mathmlref href="../mathml/mathml-equation-01.mathml"/>
           </mathml>
         </equation-block>
       </equation-figure>
@@ -189,7 +189,7 @@
           <dlentry>
             <dt><mathml><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:csymbol>symbol1</m:csymbol></m:math></mathml></dt>
             <dd>
-              <mathml/>
+              This is the definition of the symbol.
             </dd>
           </dlentry>
         </dl>
