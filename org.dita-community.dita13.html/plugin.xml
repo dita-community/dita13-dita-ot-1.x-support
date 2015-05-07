@@ -7,6 +7,8 @@
   -->
 <plugin id="org.dita-community.dita13.html">
   
+  <require plugin="org.dita-community.common.xslt" />
+  
   <feature extension="package.support.name" value="Eliot Kimber"/>
   <feature extension="package.support.email" value="ekimber@contrext.com"/>  
   
@@ -15,6 +17,7 @@
 
   <feature extension="dita.xsl.xhtml" value="xsl/dita13Vocab2Html.xsl" type="file"/>
   <feature extension="dita.conductor.xhtml.param" value="learning2domainParams.xml" type="file"/>
+  <feature extension="dita.conductor.xhtml.param" value="localFunctionsParams.xml" type="file"/>
   <feature extension="dita.xsl.strings" value="strings/strings.xml" type="file"/>
 
 </plugin>

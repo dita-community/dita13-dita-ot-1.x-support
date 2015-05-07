@@ -21,31 +21,45 @@
       <title>SVG</title>
       <fig>
         <title>Inline SVG</title>
-        <svg-container>
-          <svg:svg xmlns:svg="http://www.w3.org/2000/svg" height="150" width="500">
-            <svg:ellipse cx="240" cy="100" rx="220" ry="30" style="fill:purple"/>
-            <svg:ellipse cx="220" cy="70" rx="190" ry="20" style="fill:lime"/>
-            <svg:ellipse cx="210" cy="45" rx="170" ry="15" style="fill:yellow"/>
-          </svg:svg>
-        </svg-container>
+        <p>
+          <svg-container class="+ topic/foreign svg-d/svg-container ">
+            <svg:svg xmlns:svg="http://www.w3.org/2000/svg" height="150" width="500">
+              <svg:ellipse cx="240" cy="100" rx="220" ry="30" style="fill:purple"/>
+              <svg:ellipse cx="220" cy="70" rx="190" ry="20" style="fill:lime"/>
+              <svg:ellipse cx="210" cy="45" rx="170" ry="15" style="fill:yellow"/>
+            </svg:svg>
+          </svg-container>
+        </p>
       </fig>
       <fig>
         <title>SVG Reference direct URL reference</title>
-        <svg-container>
-          <svgref href="../svg/three-ovals.svg"/>
-        </svg-container>
+        <p>
+          <svg-container>
+            <svgref href="../svg/yinyang.svg"/>
+          </svg-container>
+        </p>
+      </fig>
+      <fig>
+        <title>SVG Reference to an SVG element with a larger XML file</title>
+        <p>
+          <svg-container>
+            <svgref href="../svg/svg-graphics.xml#graphic-01"/>
+          </svg-container>
+        </p>
       </fig>
       <fig>
         <title>SVG Reference key reference</title>
-        <svg-container>
-          <svgref keyref="svg-graphic-02"/>
-        </svg-container>
+        <p>
+          <svg-container>
+            <svgref keyref="svg-graphic-02"/>
+          </svg-container>
+        </p>
       </fig>
     </section>
     <section>
       <title>MathML</title>
       <equation-figure>
-        <title>Inline MathML Within an <xmlelement>equation-figure</xmlelement></title>
+        <title>Inline MathML Within an <xmlelement>equation-figure</xmlelement></title>        
         <mathml>
           <m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block">
             <m:semantics>

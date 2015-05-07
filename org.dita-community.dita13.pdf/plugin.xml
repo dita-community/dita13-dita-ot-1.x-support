@@ -7,6 +7,8 @@
   -->
 <plugin id="org.dita-community.dita13.pdf">
   
+  <require plugin="org.dita-community.common.xslt" />
+  
   <feature extension="package.support.name" value="Eliot Kimber"/>
   <feature extension="package.support.email" value="ekimber@contrext.com"/>  
   
