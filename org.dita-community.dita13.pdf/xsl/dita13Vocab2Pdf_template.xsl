@@ -2,7 +2,9 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
-  exclude-result-prefixes="xs xd"
+  xmlns:relpath="http://dita2indesign/functions/relpath"
+
+  exclude-result-prefixes="xs xd relpath"
   version="2.0">
   <!-- =====================================================
        Top-level XSLT Module for DITA 1.3 FO support

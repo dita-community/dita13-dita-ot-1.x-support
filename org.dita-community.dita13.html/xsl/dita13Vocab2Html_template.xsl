@@ -14,6 +14,9 @@
   <xsl:import href="plugin:org.dita-community.common.xslt:xsl/relpath_util.xsl"/>
   <xsl:import href="plugin:org.dita-community.common.xslt:xsl/dita-support-lib.xsl"/>
   
+  <xsl:param name="mappath" as="xs:string" select="'mappath-not-set'"/>
+
+  
   <xsl:include href="mathmlSvgCommon.xsl"/>
   <xsl:include href="localFunctions.xsl"/>
   <xsl:include href="dita13base2html.xsl"/>

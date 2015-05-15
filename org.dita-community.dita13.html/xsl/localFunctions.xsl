@@ -73,7 +73,7 @@
   <xsl:function name="local:resolveRefToDocument" as="document-node()?">
     <xsl:param name="xref" as="element()"/>
     
-    <xsl:variable name="doDebug" as="xs:boolean" select="false()"/> 
+    <xsl:variable name="doDebug" as="xs:boolean" select="true()"/> 
     
     <xsl:variable name="href" select="$xref/@href" as="xs:string?"/>
     <xsl:variable name="keyref" select="$xref/@keyref" as="xs:string?"/>
@@ -91,6 +91,7 @@
        select="local:resolveURIToDocument($refContextNode, $keyrefURI)"
     />
     <xsl:if test="$doDebug">
+      <xsl:message> + [DEBUG] local:resolveRefToDocument(): mappath="<xsl:value-of select="$mappath"/>"</xsl:message>
       <xsl:message> + [DEBUG] local:resolveRefToDocument(): contextNode URI: <xsl:value-of select="document-uri(root($refContextNode))"/></xsl:message>
     </xsl:if>
     <xsl:variable name="hrefResource" as="document-node()?"

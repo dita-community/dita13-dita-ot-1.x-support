@@ -12,30 +12,38 @@
    
       ======================================================= -->
    
-  <xsl:template match="*[contains(@class, ' svg-d/svg_container ')]">
+  <xsl:template match="*[contains(@class, ' svg-d/svg-container ')]">
+    <xsl:param name="doDebug" as="xs:boolean" tunnel="yes" select="false()"/>
+
     <xsl:apply-templates/>
   </xsl:template>  
   
   
   <xsl:template match="svg:svg">
+    <xsl:param name="doDebug" as="xs:boolean" tunnel="yes" select="false()"/>
+    
     <fo:instream-foreign-object>
       <xsl:apply-templates mode="copy-svg" select="."/>
     </fo:instream-foreign-object>    
   </xsl:template>
   
   <xsl:template mode="copy-svg" match="svg:*">
+    <xsl:param name="doDebug" as="xs:boolean" tunnel="yes" select="false()"/>
+
     <xsl:copy>
       <xsl:apply-templates select="@*,node()" mode="#current"/>
     </xsl:copy>
   </xsl:template>
   
   <xsl:template mode="copy-svg" match="*" priority="-1">
+    <xsl:param name="doDebug" as="xs:boolean" tunnel="yes" select="false()"/>
     <!-- Suppress non-SVG elements within the SVG content. This may not
          be 100% appropriate but it's good enough for now.
       -->
   </xsl:template>
   
   <xsl:template mode="copy-svg" match="@* | processing-instruction() | text()">
+    <xsl:param name="doDebug" as="xs:boolean" tunnel="yes" select="false()"/>
     <xsl:sequence select="."/>
   </xsl:template>
 
