@@ -14,6 +14,7 @@
   <xsl:import href="plugin:org.dita-community.common.xslt:xsl/relpath_util.xsl"/>
   <xsl:import href="plugin:org.dita-community.common.xslt:xsl/dita-support-lib.xsl"/>
   
+  <xsl:include href="mathmlSvgCommon.xsl"/>
   <xsl:include href="localFunctions.xsl"/>
   <xsl:include href="dita13base2html.xsl"/>
   <xsl:include href="dita-troubleshooting2html.xsl"/>
