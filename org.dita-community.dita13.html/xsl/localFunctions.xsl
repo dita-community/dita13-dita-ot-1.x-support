@@ -91,7 +91,6 @@
        select="local:resolveURIToDocument($refContextNode, $keyrefURI)"
     />
     <xsl:if test="$doDebug">
-      <xsl:message> + [DEBUG] local:resolveRefToDocument(): mappath="<xsl:value-of select="$mappath"/>"</xsl:message>
       <xsl:message> + [DEBUG] local:resolveRefToDocument(): contextNode URI: <xsl:value-of select="document-uri(root($refContextNode))"/></xsl:message>
     </xsl:if>
     <xsl:variable name="hrefResource" as="document-node()?"
