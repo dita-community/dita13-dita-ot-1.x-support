@@ -17,7 +17,7 @@
   <template file="xsl/dita13Vocab2Pdf_template.xsl"/>
 
   <feature extension="dita.xsl.xslfo" value="xsl/dita13Vocab2Pdf.xsl" type="file"/>
-  <feature extension="dita.conductor.xhtml.param" value="learning2domainParams.xml" type="file"/>
-  <feature extension="dita.conductor.xhtml.param" value="learning2domainParams.xml" type="file"/>
+  <feature extension="dita.conductor.pdf2.param" value="learning2domainParams.xml" type="file"/>
+  <feature extension="dita.conductor.pdf2.param" value="localFunctionsParams.xml" type="file"/>
 
 </plugin>

@@ -10,6 +10,11 @@
        Copyright (c) DITA Community
        ===================================================== -->
   
+  <xsl:import href="plugin:org.dita-community.common.xslt:xsl/relpath_util.xsl"/>
+  <xsl:import href="plugin:org.dita-community.common.xslt:xsl/dita-support-lib.xsl"/>
+  
+  <xsl:include href="plugin:org.dita-community.dita13.html:xsl/mathmlSvgCommon.xsl"/>
+  <xsl:include href="plugin:org.dita-community.dita13.html:xsl/localFunctions.xsl"/>
   <xsl:include href="dita13base2fo.xsl"/>
   <xsl:include href="dita-troubleshooting2fo.xsl"/>
   <xsl:include href="equation-d2fo.xsl"/>
