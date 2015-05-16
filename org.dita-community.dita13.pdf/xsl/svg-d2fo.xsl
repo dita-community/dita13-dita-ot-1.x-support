@@ -34,11 +34,12 @@
   <xsl:template mode="svg:copy-svg" match="svg:*">
     <xsl:param name="doDebug" as="xs:boolean" tunnel="yes" select="false()"/>
 
-    <xsl:copy>
+    <xsl:element name="{concat('svg:', local-name(.))}">
       <xsl:apply-templates select="@*,node()" mode="#current">
         <xsl:with-param name="doDebug" as="xs:boolean" tunnel="yes" select="$doDebug"/>
       </xsl:apply-templates>
-    </xsl:copy>
+    </xsl:element>
+    
   </xsl:template>
   
   <xsl:template mode="svg:copy-svg" match="*" priority="-1">
