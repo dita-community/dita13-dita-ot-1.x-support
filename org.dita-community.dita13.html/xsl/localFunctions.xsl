@@ -4,7 +4,8 @@
   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
   xmlns:local="urn:namespace:functions:local"
   xmlns:relpath="http://dita2indesign/functions/relpath"
-  exclude-result-prefixes="xs local xd relpath"
+  xmlns:opentopic="http://www.idiominc.com/opentopic"
+  exclude-result-prefixes="xs local xd relpath opentopic"
   version="2.0">
   <!-- ===========================================
        Functions common to the 1.3 vocabulary 
@@ -73,7 +74,7 @@
   <xsl:function name="local:resolveRefToDocument" as="document-node()?">
     <xsl:param name="xref" as="element()"/>
     
-    <xsl:variable name="doDebug" as="xs:boolean" select="true()"/> 
+    <xsl:variable name="doDebug" as="xs:boolean" select="false()"/> 
     
     <xsl:variable name="href" select="$xref/@href" as="xs:string?"/>
     <xsl:variable name="keyref" select="$xref/@keyref" as="xs:string?"/>
@@ -211,18 +212,37 @@
        it resolves the @xtrf value to get the original document
        that contains the input element so that references
        can be resolved relative to the original source location.
+       
+       NOTE: For PDF output, the merge processing rewrites all the 
+             URLs to be relative to the merged map document, so
+             the URL will be relative to the root input map, not the
+             topic making the reference.
+             
     -->
   <xsl:function name="local:getRefContextNode" as="element()">
     <xsl:param name="xref" as="element()"/>
+    
+    <xsl:variable name="doDebug" as="xs:boolean" select="false()"/>
     
     <xsl:variable name="format" as="xs:string"
         select="if ($xref/@format) then $xref/@format else 'dita'"
     />
     <xsl:variable name="xtrf" select="($xref/ancestor-or-self::*[@xtrf])[last()]/@xtrf" as="xs:string?"/>
+    <xsl:variable name="isPDFMergedMap " as="xs:boolean" select="boolean(root($xref)/*/opentopic:map)"/>
+    
+    <xsl:if test="$doDebug">
+      <xsl:message> + [DEBUG] getRefContextNode():   xtrf="<xsl:value-of select="$xtrf"/>"</xsl:message>
+      <xsl:message> + [DEBUG]                      format="<xsl:value-of select="$format"/>"</xsl:message>
+      <xsl:message> + [DEBUG]   (not($xtrf) and ($format = ('dita', 'ditamap')))=<xsl:value-of select="(not($xtrf) and ($format = ('dita', 'ditamap')))"/></xsl:message>
+      <xsl:message> + [DEBUG]              isPDFMergedMap=<xsl:value-of select="$isPDFMergedMap"/></xsl:message>
+    </xsl:if>
+    
     <xsl:variable name="refContextNode" as="node()?"
-      select="if (not($format = ('dita', 'ditamap')) and $xtrf) 
-                 then document($xtrf)/* 
-                 else $xref"
+      select="if ($isPDFMergedMap)
+                 then (document($mappath)/*)
+                 else if (not($xtrf) and ($format = ('dita', 'ditamap'))) 
+                      then $xref 
+                      else document($xtrf)/*"
     />
     <xsl:sequence select="$refContextNode"/>
   </xsl:function>

@@ -5,7 +5,8 @@
   xmlns:m="http://www.w3.org/1998/Math/MathML"
   xmlns:svg="http://www.w3.org/2000/svg"
   xmlns:local="urn:namespace:functions:local"
-  exclude-result-prefixes="xs xd m"
+  xmlns:opentopic="http://www.idiominc.com/opentopic"
+  exclude-result-prefixes="xs xd m opentopic"
   version="2.0">
   <!--========================================
       Output-independent processing for 
@@ -65,15 +66,23 @@
   </xsl:template>
   
   <xsl:template mode="validate-mathmldoc" match="m:math" priority="10">
+    <xsl:param name="doDebug" as="xs:boolean" tunnel="yes" select="false()"/>
+
     <!-- Must be good, apply templates in normal mode -->
-    <xsl:apply-templates mode="#default" select="."/>
+    <xsl:apply-templates mode="#default" select=".">
+      <xsl:with-param name="doDebug" as="xs:boolean" tunnel="yes" select="$doDebug"/>
+    </xsl:apply-templates>
   </xsl:template>
   
   <xsl:template mode="validate-mathmldoc" match="*">
+    <xsl:param name="doDebug" as="xs:boolean" tunnel="yes" select="false()"/>
+
     <xsl:message> - [WARN] validate-mathmldoc: element <xsl:sequence select="name(.)"/> with ID "<xsl:value-of select="@id"/>" is not a MathML &lt;math&gt; element. &lt;mathmlref&gt; must resolve to a &lt;math&gt; element.</xsl:message>
   </xsl:template>
   
   <xsl:template mode="validate-mathmldoc" match="/*" priority="5">
+    <xsl:param name="doDebug" as="xs:boolean" tunnel="yes" select="false()"/>
+
     <xsl:message> - [WARN] validate-mathmldoc: Root element <xsl:sequence select="name(.)"/> is not a MathML &lt;math&gt; element. &lt;mathmlref&gt; must resolve to a &lt;math&gt; element.</xsl:message>
   </xsl:template>
   
@@ -94,21 +103,38 @@
         <xsl:message> - [WARN] svgref: No value for @href or @keyref attribute.</xsl:message>
       </xsl:when>      
       <xsl:otherwise>
+        <xsl:if test="$doDebug">
+          <xsl:message> + [DEBUG] mathmlref: Have @href or @keyref or both</xsl:message>
+        </xsl:if>
         <xsl:variable name="svgDoc" as="document-node()?"
           select="local:resolveRefToDocument(.)"
         />
+        <xsl:if test="$doDebug">
+          <xsl:message> + [DEBUG] count($svgDoc)=<xsl:value-of select="count($svgDoc)"/></xsl:message>
+        </xsl:if>
         <xsl:variable name="fragmentId" as="xs:string?"
           select="local:getFragmentIDForXRef(.)"
         />
+        <xsl:if test="$doDebug">
+          <xsl:message> + [DEBUG] $fragmentId="<xsl:value-of select="$fragmentId"/>"</xsl:message>
+        </xsl:if>
         <xsl:choose>
           <xsl:when test="$fragmentId = ''">
+            <xsl:if test="$doDebug">
+              <xsl:message> + [DEBUG] No fragment ID, processing whole document.</xsl:message>
+            </xsl:if>
             <!-- Root of target document should be an SVG  svg:svg element -->
             <xsl:message> + [INFO] svgref: Processing root of document <xsl:value-of select="document-uri($svgDoc)"/>...</xsl:message>
-            <xsl:apply-templates select="$svgDoc/*[1]" mode="validate-svgdoc"/>
+            <xsl:apply-templates select="$svgDoc/*[1]" mode="validate-svgdoc">
+              <xsl:with-param name="doDebug" as="xs:boolean" tunnel="yes" select="$doDebug"/>
+            </xsl:apply-templates>
           </xsl:when>
           <xsl:otherwise>
+            <xsl:if test="$doDebug">
+              <xsl:message> + [DEBUG] Fragment ID, attempting to find the element with the ID.</xsl:message>
+            </xsl:if>
             <!-- Fragment ID should be an element ID and should be the ID 
-                 of an m:math element:
+                 of an svg:svg element:
               -->
             <xsl:variable name="targetElem" as="element()*" select="$svgDoc//*[@id = $fragmentId]"/>
             <xsl:choose>
@@ -120,7 +146,9 @@
                   <xsl:message> - [WARN] svgref: Found <xsl:value-of select="count($targetElem)"/> elements with ID "<xsl:value-of select="$fragmentId"/> in document "<xsl:value-of select="document-uri($svgDoc)"/>". There should be at most one. Using first found.</xsl:message>
                 </xsl:if>
                 <xsl:message> + [INFO] svgref: Processing element with ID "<xsl:value-of select="$fragmentId"/>" in document <xsl:value-of select="document-uri($svgDoc)"/>...</xsl:message>
-                <xsl:apply-templates mode="validate-svgdoc" select="$targetElem[1]"/>
+                <xsl:apply-templates mode="validate-svgdoc" select="$targetElem[1]">
+                  <xsl:with-param name="doDebug" as="xs:boolean" tunnel="yes" select="$doDebug"/>
+                </xsl:apply-templates>
               </xsl:otherwise>
             </xsl:choose>
           </xsl:otherwise>
@@ -130,15 +158,23 @@
   </xsl:template>
   
   <xsl:template mode="validate-svgdoc" match="svg:svg" priority="10">
+    <xsl:param name="doDebug" as="xs:boolean" tunnel="yes" select="false()"/>
+
     <!-- Must be good, apply templates in normal mode -->
-    <xsl:apply-templates mode="#default" select="."/>
+    <xsl:apply-templates mode="#default" select=".">
+      <xsl:with-param name="doDebug" as="xs:boolean" tunnel="yes" select="$doDebug"/>
+    </xsl:apply-templates>
   </xsl:template>
   
   <xsl:template mode="validate-svgdoc" match="*">
+    <xsl:param name="doDebug" as="xs:boolean" tunnel="yes" select="false()"/>
+
     <xsl:message> - [WARN] validate-svgdoc: element <xsl:sequence select="name(.)"/> with ID "<xsl:value-of select="@id"/>" is not an SVG &lt;svg&gt; element. &lt;svgref&gt; must resolve to an &lt;svg&gt; element.</xsl:message>
   </xsl:template>
   
   <xsl:template mode="validate-svgdoc" match="/*" priority="5">
+    <xsl:param name="doDebug" as="xs:boolean" tunnel="yes" select="false()"/>
+
     <xsl:message> - [WARN] validate-svgdoc: Root element <xsl:sequence select="name(.)"/> is not an SVG &lt;svg&gt; element. &lt;svgref&gt; must resolve to an &lt;svg&gt; element.</xsl:message>
   </xsl:template>
     
