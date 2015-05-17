@@ -14,6 +14,12 @@
     href="svg/svg-graphics.xml#graphic-02"
     format="svg"
   />
-  <topicref keys="domain-tests"
-    href="topics/dita13-domain-tests.dita"/>
+  <topicref
+    keys="domain-tests"
+    href="topics/dita13-domain-tests.dita">
+    <topicref
+      href="topics/svg-tests.dita"/>
+    <topicref
+      href="topics/mathml-tests.dita"/>
+  </topicref>
 </map>
