@@ -9,8 +9,6 @@
   <xsl:template match="*[contains(@class, ' svg-d/svg-container ')]">
     <xsl:param name="doDebug" as="xs:boolean" tunnel="yes" select="false()"/>
     
-    <xsl:variable name="doDebug" as="xs:boolean" select="true()"/>
-        
     <xsl:if test="$doDebug">
       <xsl:message> + [DEBUG] #default: <xsl:value-of select="concat(name(..), '/', name(.))"/>: Handling SVG container...</xsl:message>
     </xsl:if>

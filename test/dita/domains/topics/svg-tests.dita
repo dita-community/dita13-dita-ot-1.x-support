@@ -37,18 +37,21 @@
     <fig
       id="fig_gr2_143_bs">
       <title>SVG Reference to an SVG element within a larger XML file</title>
+      <desc><xmlatt>viewBox</xmlatt> specified, no <xmlatt>width</xmlatt> or <xmlatt>height</xmlatt> specified (should scale up to fit available space).</desc>
       <p> <svg-container><svgref
         href="../svg/svg-graphics.xml#graphic-01"/></svg-container> </p>
     </fig>
     <fig
       id="fig_hr2_143_bs">
       <title>SVG Reference key reference to key "svg-graphic-02"</title>
+      <desc><xmlatt>viewBox</xmlatt> not specified, no <xmlatt>width</xmlatt> or <xmlatt>height</xmlatt> specified. Should not be scaled up (internal units interpreted as pixels).</desc>
       <p> <svg-container><svgref
         keyref="svg-graphic-02"/></svg-container> </p>
     </fig>
     <fig
       id="fig_eg1_ln3_bs">
       <title>SVG With Image Specified as data:image URI</title>
+      <desc>This graphic includes animation and a bitmap image encoded within the <xmlatt>href</xmlatt> attribute as base-64-encoded data using the data: URN scheme.</desc>
       <svg-container><svgref
         href="../svg/animate-elem-30-t.svg"/></svg-container>
     </fig>
