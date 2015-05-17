@@ -43,40 +43,10 @@
     <fo:instream-foreign-object>
       <xsl:apply-templates mode="svg:copy-svg" select=".">
         <xsl:with-param name="doDebug" as="xs:boolean" tunnel="yes" select="$doDebug"/>
+        <xsl:with-param name="useNSPrefix" as="xs:boolean" tunnel="yes" select="true()"/>
       </xsl:apply-templates>
     </fo:instream-foreign-object>    
   </xsl:template>
   
-  <xsl:template mode="svg:copy-svg" match="svg:*">
-    <xsl:param name="doDebug" as="xs:boolean" tunnel="yes" select="false()"/>
-
-    <!-- NOTE: It appears that at least Antenna House requires that the svg: prefix be used
-               on the elements: just having the SVG namespace does not appear to be enough.
-      -->
-    <xsl:element name="{concat('svg:', local-name(.))}">
-      <xsl:apply-templates select="@*,node()" mode="#current">
-        <xsl:with-param name="doDebug" as="xs:boolean" tunnel="yes" select="$doDebug"/>
-      </xsl:apply-templates>
-    </xsl:element>
-    
-  </xsl:template>
-  
-  <xsl:template mode="svg:copy-svg" match="*" priority="-1">
-    <xsl:param name="doDebug" as="xs:boolean" tunnel="yes" select="false()"/>
-    <xsl:apply-templates select="." mode="svg:non-svg-in-svg">
-      <xsl:with-param name="doDebug" as="xs:boolean" tunnel="yes" select="$doDebug"/>
-    </xsl:apply-templates>
-  </xsl:template>
-  
-  <xsl:template mode="svg:non-svg-in-svg" match="*">
-    <xsl:param name="doDebug" as="xs:boolean" tunnel="yes" select="false()"/>
-    <!-- By default, ignore non-SVG elements within SVG -->
-  </xsl:template>
-  
-  <xsl:template mode="svg:copy-svg" match="@* | processing-instruction() | text()">
-    <xsl:param name="doDebug" as="xs:boolean" tunnel="yes" select="false()"/>
-    <xsl:sequence select="."/>
-  </xsl:template>
-
   
 </xsl:stylesheet>

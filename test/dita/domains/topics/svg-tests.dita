@@ -36,7 +36,7 @@
     </fig>
     <fig
       id="fig_gr2_143_bs">
-      <title>SVG Reference to an SVG element with a larger XML file</title>
+      <title>SVG Reference to an SVG element within a larger XML file</title>
       <p> <svg-container><svgref
         href="../svg/svg-graphics.xml#graphic-01"/></svg-container> </p>
     </fig>
