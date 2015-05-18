@@ -55,5 +55,29 @@
       <svg-container><svgref
         href="../svg/animate-elem-30-t.svg"/></svg-container>
     </fig>
+    <fig
+      id="fig_t15_5lq_bs">
+      <title>Realistic Mechanical Drawing 1</title>
+      <svg-container>
+        <svgref
+          href="../svg/g_MXEngineRadiatorFill.svg"/>
+      </svg-container>
+    </fig>
+    <fig
+      id="fig_nzn_pmq_bs">
+      <title>Realistic Mechanical Drawing 2</title>
+      <svg-container>
+        <svgref
+          href="../svg/g_PBCabHvacControls_Ngp.svg"/>
+      </svg-container>
+    </fig>
+    <fig
+      id="fig_tcb_zlq_bs">
+      <title>Realistic Mechanical Drawing 3</title>
+      <svg-container>
+        <svgref
+          href="../svg/g_SafetyRestraintBeltsCombined.svg"/>
+      </svg-container>
+    </fig>
   </body>
 </topic>
