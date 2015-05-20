@@ -79,5 +79,21 @@
           href="../svg/g_SafetyRestraintBeltsCombined.svg"/>
       </svg-container>
     </fig>
+    <fig
+      id="fig_vxk_drq_bs">
+      <title>Flow Chart From Visio Via OmniGraffle</title>
+      <svg-container>
+        <svgref
+          href="../svg/LF_EGR-APSPD_P2_lo_plaus_fault_data.svg"/>
+      </svg-container>
+    </fig>
+    <fig
+      id="fig_vjx_2gr_bs">
+      <title>Flow Chart Exported Directly from Visio</title>
+      <svg-container>
+        <svgref
+          href="../svg/Namux%204%20trouble%20tree%20Page1.svg"/>
+      </svg-container>
+    </fig>
   </body>
 </topic>

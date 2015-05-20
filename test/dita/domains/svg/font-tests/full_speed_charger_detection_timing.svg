@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.0" width="648.33551" height="688.21045" id="svg2694">
+  <defs id="defs2696">
+    <marker refX="0" refY="0" orient="auto" id="TriangleOutL" style="overflow:visible">
+      <path d="m 5.77,0 -8.65,5 0,-10 8.65,5 z" transform="scale(0.8,0.8)" id="path7288" style="stroke:#000000;stroke-width:1pt;marker-start:none" />
+    </marker>
+    <marker refX="0" refY="0" orient="auto" id="TriangleInL" style="overflow:visible">
+      <path d="m 5.77,0 -8.65,5 0,-10 8.65,5 z" transform="scale(-0.8,-0.8)" id="path7279" style="stroke:#000000;stroke-width:1pt;marker-start:none" />
+    </marker>
+    <marker refX="0" refY="0" orient="auto" id="Arrow1Mend" style="overflow:visible">
+      <path d="M 0,0 5,-5 -12.5,0 5,5 0,0 z" transform="matrix(-0.8,0,0,-0.8,-8,0)" id="path6138" style="stroke:#000000;stroke-width:1pt;marker-start:none" />
+    </marker>
+  </defs>
+  <metadata id="metadata2699">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <rect width="474.39999" height="33.599998" x="146.29686" y="27.08403" id="rect2684" style="fill:#d3d3d3;" />
+  <path d="m 485.45483,10.84775 0.19959,19.22432 -0.0532,503.91099" id="path6102" style="fill:none;stroke:#000000;stroke-width:0.60129726;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3.60778345, 3.60778345;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <rect width="25.599995" height="33.599998" x="535.89685" y="27.08403" id="rect2686" style="fill:#919191;" />
+  <path d="m 155.37006,145.47433 49.10288,0 0.11469,-26.48666 416.08263,-0.0335" id="path5218" style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 155.86275,226.84203 18.33683,0 0,-13.64466 360.12727,0 0,-21.98034" id="path6098" style="fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 620.02016,191.1792 -86.15498,0 0,-17.86675 85.78798,0.16935" id="path6100" style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3.6, 3.6;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 485.54467,560.34091 0,12.92411" id="path6104" style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 485.61163,568.07529 19.88839,0.0335" id="path6106" style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#Arrow1Mend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 507.46705,559.97169 0,13.08069" id="path8172" style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 155.37726,281.30073 103.94531,0.067 0.10045,-17.71206 2.13448,0.45201 32.49905,-0.39871 -0.006,17.68557 326.59863,-0.0477" id="path8174" style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 155.27681,325.66457 104.08336,0.003 0.0473,-17.72108 16.83325,0.0237 -0.01,17.77808 344.40851,-0.0837" id="path8176" style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 155.22547,380.8677 153.08594,0 0,-17.64062 71.98059,-0.0457 0.0585,17.62385 240.29299,0.0703" id="path8178" style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 155.20003,451.80172 330.34575,0.0347 0,-18.46875 135.08598,0.008" id="path8180" style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 155.18898,503.74092 176.31774,0.002 0,-5.4375 59.29797,0 0,5.39153 94.77993,0.28726 0,-18.92879" id="path8184" style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 485.77258,503.79603 134.20288,-0.01" id="path8777" style="fill:none;stroke:#000000;stroke-width:0.6223712;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4.97896972, 4.97896972;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 485.77258,484.92103 134.20288,-0.01" id="path8779" style="fill:none;stroke:#000000;stroke-width:0.6223712;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4.97896972, 4.97896972;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 155.13172,576.4302 0,0 352.375,0.125 0.0314,17.69539 113.09368,-0.008" id="path8781" style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 155.17078,677.33645 165.79055,0.0213 -0.0442,-18.38477 71.85973,0 0,18.11961 33.94112,-0.13259 0.0221,-18.28533" id="path8783" style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 426.50394,658.98191 46.28403,-10e-6" id="path8785" style="fill:none;stroke:#000000;stroke-width:0.63189876;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:7.58278513, 7.58278513;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 472.59153,659.10554 0,18.208" id="path8787" style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:7.20000029, 7.20000029;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 426.54121,677.04837 45.87355,0" id="path8789" style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:7.20000029, 7.20000029;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 472.50315,677.04837 148.14811,0.10839" id="path8791" style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 485.60047,576.4927 -0.0625,23.59375" id="path8793" style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3.60000014, 3.60000014;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 379.77359,642.26756 0,12.94889" id="path8799" style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 392.55589,641.91401 0,13.03728" id="path8801" style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 380.66765,649.73637 9.54595,0" id="path8803" style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#Arrow1Mend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 446.81562,643.58839 -0.25,12.17095" id="path9989" style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#Arrow1Mend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 307.21694,649.91315 11.66727,0.0884" id="path9991" style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#Arrow1Mend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 241.77584,557.3524 -0.1065,119.62314" id="path9997" style="fill:none;stroke:#000000;stroke-width:0.60010237;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3.60061412, 3.60061412;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="M 204.213,557.41708 204.10718,678.0781" id="path9999" style="fill:none;stroke:#000000;stroke-width:0.60077995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3.60467945, 3.60467945;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 379.69538,397.91797 0,17.41251" id="path10003" style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 379.60699,406.49164 102.26532,0" id="path10005" style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#Arrow1Mend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 379.73958,383.64325 0.0884,9.23659" id="path10594" style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4.80000019, 2.4000001;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 308.56486,346.40966 0,13.03728" id="path10598" style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 308.56486,354.23203 68.21371,0.0221" id="path10600" style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#Arrow1Mend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 380.00474,346.07821 0,13.03728" id="path11209" style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 276.3694,287.03479 0.0221,13.08148" id="path11211" style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 276.3694,294.76877 15.932,0" id="path11213" style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#Arrow1Mend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 293.89239,286.63704 0.0442,13.03728" id="path11802" style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 293.78614,385.67619 0,12.94889" id="path11804" style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 294.66579,393.32178 11.72662,0" id="path11806" style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#Arrow1Mend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 307.97547,385.1177 0.0625,13.125" id="path12395" style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 379.77083,647.05563 0.006,-89.69214" id="path3816" style="fill:none;stroke:#000000;stroke-width:0.60000908;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3.60005454, 3.60005454;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 307.86427,639.60716 0.006,-79.6502" id="path4702" style="fill:none;stroke:#000000;stroke-width:0.59938401;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3.59630406, 3.59630406;stroke-dashoffset:0.89907601;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 426.87308,676.12983 0.006,-120.09214" id="path4704" style="fill:none;stroke:#000000;stroke-width:0.60000908;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3.60005462, 3.60005462;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 426.85047,159.26214 0,71.2668" id="path4706" style="fill:none;stroke:#000000;stroke-width:0.6188103;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:7.42572343, 7.42572343;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 426.80879,229.86639 0.26757,11.27979 -0.0713,295.66764" id="path5295" style="fill:none;stroke:#000000;stroke-width:0.53330356;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3.19982135, 3.19982135;stroke-dashoffset:2.45319637;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 503.87705,357.98465 0.25605,5.51035 -0.0683,144.43806" id="path5299" style="fill:none;stroke:#000000;stroke-width:0.54481721;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3.2689032, 3.2689032;stroke-dashoffset:2.50615913;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 536.18695,10.80989 -0.006,63.28775" id="path5301" style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.40000015, 2.40000015;stroke-dashoffset:1.32000008;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 561.43695,10.80989 -0.006,86.48775" id="path5303" style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.40000014, 2.40000014;stroke-dashoffset:1.32000007;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 293.66828,12.38209 0.23573,13.73269 -0.0628,359.96337" id="path5307" style="fill:none;stroke:#000000;stroke-width:0.56515831;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3.39094982, 3.39094982;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 241.49892,11.7756 0.19915,19.29301 -0.0531,505.711" id="path5309" style="fill:none;stroke:#000000;stroke-width:0.60172433;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3.61034599, 3.61034599;stroke-dashoffset:6.01724331;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 204.32214,11.7756 0.32284,525.00401" id="path5311" style="fill:none;stroke:#000000;stroke-width:0.60172433;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3.61034599, 3.61034599;stroke-dashoffset:6.01724331;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 203.31644,146.89506 0,12.9489" id="path5313" style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 203.36063,154.71743 34.64823,-0.0442" id="path5315" style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#Arrow1Mend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 320.98328,642.21145 0.0333,13.10444" id="path5904" style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 307.85629,642.26756 0.0221,13.05938" id="path5906" style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 332.07995,503.73713 58.46889,0.0442" id="path5908" style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:7.20000029, 7.20000029;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 327.66297,483.47707 21,12.26563" id="path5910" style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#Arrow1Mend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="M 375.54113,524.39617 364.82404,510.03859" id="path6499" style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#Arrow1Mend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="M 379.68866,535.32726 379.69466,417.86" id="path7088" style="fill:none;stroke:#000000;stroke-width:0.59988821;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3.59932938, 3.59932938;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 308.00599,532.67533 0.005,-130.63656" id="path7090" style="fill:none;stroke:#000000;stroke-width:0.6004473;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3.60268385, 3.60268385;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 157.44422,173.33645 378.90625,0.0937" id="path7092" style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3.60000014, 3.60000014;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 157.26744,191.14711 378.90625,0.0937" id="path7094" style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3.60000014, 3.60000014;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 258.6858,94.39671 -12.34209,8.89242" id="path7096" style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#Arrow1Mend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 576.18576,94.64671 -12.34205,8.89242" id="path7102" style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#Arrow1Mend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 208.16297,66.6177 28.1875,0.125" id="path7104" style="fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-start:url(#TriangleInL);marker-end:url(#TriangleOutL);visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 246.52351,66.6177 43.92063,0.125" id="path11003" style="fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-start:url(#TriangleInL);marker-end:url(#TriangleOutL);visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 297.6304,66.75342 183.46574,0" id="path11005" style="fill:none;stroke:#000000;stroke-width:0.69999993;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-start:url(#TriangleInL);marker-end:url(#TriangleOutL);visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 489.78726,66.66433 42.50642,0.125" id="path11007" style="fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-start:url(#TriangleInL);marker-end:url(#TriangleOutL);visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 242.34205,104.97484 318.16156,0.0175" id="path11009" style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#Arrow1Mend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 561.43695,96.86726 0,13.03728" id="path11025" style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 188.27474,11.822668 a 11.268038,11.299288 0 1 1 0,-1.14e-4" id="path11029" style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 233.52958,11.822668 a 11.268038,11.299288 0 1 1 0,-1.14e-4" id="path11033" style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 280.55218,11.822668 a 11.268038,11.299288 0 1 1 0,-1.14e-4" id="path11035" style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 389.52943,11.822668 a 11.268038,11.299288 0 1 1 0,-1.14e-4" id="path11037" style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 522.75218,11.822668 a 11.268038,11.299288 0 1 1 0,-1.14e-4" id="path11039" style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 597.55218,11.822668 a 11.268038,11.299288 0 1 1 0,-1.14e-4" id="path11031" style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 69.275506,25.36109 0,49.40908" id="path11041" style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 68.921946,114.0146 0.36602,425.4156" id="path11043" style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 69.452276,562.3203 -0.17677,123.39013" id="path11045" style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <text x="207.55048" y="40.017685" id="text11047" style="font-size:15px">
+    <tspan x="207.55048 214.21381 221.33893 228.55084" y="40.017685" id="tspan11049" style="font-size:9.97500038px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica">VBUS</tspan>
+    <tspan x="207.55048 214.76239 220.31848 223.65015 229.20618 234.76227" y="52.542297" id="tspan11051" style="font-size:9.97500038px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica">Detect</tspan>
+  </text>
+  <text x="173.2005" y="16.72023" id="text11061" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica">
+    <tspan x="173.2005" y="16.72023" id="tspan11063" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;;stroke:none;font-family:Helvetica">1</tspan>
+  </text>
+  <text x="218.12549" y="16.732086" id="text11065" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica">
+    <tspan x="218.12549" y="16.732086" id="tspan11067" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;;stroke:none;font-family:Helvetica">2</tspan>
+  </text>
+  <text x="265.67548" y="16.587234" id="text11069" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica">
+    <tspan x="265.67548" y="16.587234" id="tspan11071" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;;stroke:none;font-family:Helvetica">3</tspan>
+  </text>
+  <text x="374.42548" y="16.72023" id="text11073" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica">
+    <tspan x="374.42548" y="16.72023" id="tspan11075" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;;stroke:none;font-family:Helvetica">4</tspan>
+  </text>
+  <text x="507.72543" y="16.464081" id="text11077" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica">
+    <tspan x="507.72543" y="16.464081" id="tspan11079" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;;stroke:none;font-family:Helvetica">5</tspan>
+  </text>
+  <text x="582.55029" y="16.592697" id="text11081" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica">
+    <tspan x="582.55029" y="16.592697" id="tspan11083" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;;stroke:none;font-family:Helvetica">6</tspan>
+  </text>
+  <text x="595.52533" y="108.94269" id="text11085" style="font-size:15px">
+    <tspan x="595.52533 601.4801 604.32996 609.99841 612.84827" y="108.94269" id="tspan11087" style="font-size:12.44999981px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">= 1 s</tspan>
+  </text>
+  <text x="77.684525" y="188.37862" id="text11093" style="font-size:15px;line-height:125%">
+    <tspan x="77.684525" y="188.37862" dx="0 0.53033006" dy="0 3.7123098" id="tspan11095" style="font-size:9.97500038px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">
+    <tspan id="tspan11185" style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica">I</tspan>DEV_HCHG_LFS</tspan>
+  </text>
+  <text x="75.175461" y="445.84271" id="text11097" style="font-size:15px">
+    <tspan x="75.175461 81.817467 87.953239 93.065239 99.200981 105.84295 111.01684 116.12884 122.77087" y="445.84271" id="tspan11099" style="font-size:11.25px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">DP_PULLUP</tspan>
+  </text>
+  <text x="84.600456" y="670.0426" id="text11101" style="font-size:15px;line-height:125%">
+    <tspan x="84.600456" y="670.0426" dx="0 -0.375" dy="0 3.375" id="tspan11103" style="font-size:9.97500038px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">
+    <tspan id="tspan11105" style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica Narrow">V</tspan>DM_SRC</tspan>
+  </text>
+  <text x="87.718132" y="585.31818" id="text11109" style="font-size:15px;line-height:100%">
+    <tspan x="87.718132" y="585.31818" dx="0 -0.3946068" dy="0 3.1937809" id="tspan11111" style="font-size:9.97500038px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">
+    <tspan id="tspan11141" style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica">I</tspan>DP_SINK</tspan>
+  </text>
+  <text x="7.6754661" y="624.26758" id="text11115" style="font-size:15px">
+    <tspan x="7.6754661 16.645678 24.296221 31.199724 35.924515 43.512802 47.037369 54.625656" y="624.26758" id="tspan11117" style="font-size:12.44999981px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica">Charging</tspan>
+    <tspan x="6.249929 15.268723 22.905535 29.857622 34.033371 37.557968 45.357864 53.008408 58.107925" y="638.74323" id="tspan11119" style="font-size:12.44999981px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica">Host Port</tspan>
+  </text>
+  <text x="12.025472" y="43.017563" id="text11121" style="font-size:15px">
+    <tspan x="12.025472 21.084093 28.658678 35.650589 40.300644 48.100571 55.000381" y="43.017563" id="tspan11123" style="font-size:12.44999981px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica">Charger</tspan>
+    <tspan x="2.9506736 11.983144 18.9489 23.073595 30.039385 37.005142 41.129837 44.579727 52.230247" y="54.26738" id="tspan11125" style="font-size:12.44999981px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica">Detection</tspan>
+    <tspan x="23.125872 31.453691 39.084305 46.030136 52.975998" y="65.517197" id="tspan11127" style="font-size:12.44999981px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica">Phase</tspan>
+  </text>
+  <text x="529.83112" y="88.400894" id="text11129" style="font-size:15px;line-height:125%">
+    <tspan x="529.83112" y="88.400894" dx="0 -0.88388354" dy="0 3.0052032" id="tspan11131" style="font-size:9.97500038px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">
+    <tspan id="tspan11133" style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica Narrow">T</tspan>UNIT_CON_ELAPSED</tspan>
+  </text>
+  <text x="57.113689" y="313.67236" transform="scale(1.0273454,0.97338248)" id="text11143" style="font-size:14.60073757px">
+    <tspan x="57.113689" y="313.67236" id="tspan11145" style="font-size:12.11861134px;font-variant:normal;font-weight:bold;text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#000000;;stroke:none;font-family:Helvetica">Full-</tspan>
+    <tspan x="57.113689" y="328.82062" id="tspan11147" style="font-size:12.11861134px;font-variant:normal;font-weight:bold;text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#000000;;stroke:none;font-family:Helvetica">Speed</tspan>
+    <tspan x="57.113689" y="343.9689" id="tspan11149" style="font-size:12.11861134px;font-variant:normal;font-weight:bold;text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#000000;;stroke:none;font-family:Helvetica">Portable</tspan>
+    <tspan x="57.113689" y="359.11716" id="tspan11153" style="font-size:12.11861134px;font-variant:normal;font-weight:bold;text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#000000;;stroke:none;font-family:Helvetica">USB</tspan>
+    <tspan x="57.113689" y="374.26541" id="tspan11151" style="font-size:12.11861134px;font-variant:normal;font-weight:bold;text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#000000;;stroke:none;font-family:Helvetica">Device</tspan>
+  </text>
+  <text x="435.77545" y="640.24261" id="text11155" style="font-size:15px">
+    <tspan x="435.77545 440.88074 443.50537 446.05463 450.64233 455.74762 460.92151 463.99722 469.10245 471.12521 476.23044 481.40433 483.95358 489.05881 494.2327 498.82047 501.36069 503.90994 509.08383 514.18341 517.22992 519.77014" y="640.24261" id="tspan11157" style="font-size:11.25px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">at charging host port.</tspan>
+  </text>
+  <text x="435.77545" y="627.2677" id="text11159" style="font-size:15px;line-height:125%">
+    <tspan x="435.77545 440.3587 445.53259 450.63336 455.28186 460.38263 462.93185 469.56259 474.92209 477.54672 482.12997 487.23068 489.32883 491.87808 496.97885 502.07956 507.25345 509.8027 512.33844 517.43915 519.9884 525.16229 529.73541 534.38391 539.48468 544.58539 549.68616 552.31079" y="627.2677" id="tspan11161" style="font-size:11.25px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">cause D+ voltage to exceed V
+    <tspan dy="2.2500002" id="tspan11163" style="font-size:7.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica">DAT_REF</tspan></tspan>
+  </text>
+  <text x="435.77545" y="612.0426" id="text11169" style="font-size:15px;line-height:100%">
+    <tspan x="435.77545" y="612.0426" dx="0 0 0 0 0 0 0" dy="0 0 0 0 0 0 0" id="tspan11171" style="font-size:12.44999981px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">V
+    <tspan dx="-1" dy="3.0000005" id="tspan11173" style="font-size:8.75px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica">DM_SRC</tspan>
+    <tspan dy="-3.2500005" id="tspan11183" style="font-size:9.375px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica">could turn on if ground currents</tspan></tspan>
+  </text>
+  <text x="98.190666" y="172.11516" id="text11191" style="font-size:15px;line-height:125%">
+    <tspan x="98.190666" y="172.11516" dx="0 0.53033006" dy="0 3.7123098" id="tspan11193" style="font-size:9.97500038px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">
+    <tspan id="tspan11195" style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica">I</tspan>DEV_DCHG</tspan>
+  </text>
+  <text x="76.225441" y="132.79271" id="text11197" style="font-size:15px">
+    <tspan x="76.225441 83.05056 89.875664 97.260979 104.08605 106.93591 112.62804 115.48156 118.33135 124.02349 129.71564 133.12946 135.98297 141.67511 147.36725 149.64813" y="132.79271" id="tspan11199" style="font-size:12.44999981px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">VBUS at portable</tspan>
+  </text>
+  <text x="94.075493" y="322.69272" id="text11381" style="font-size:15px">
+    <tspan x="76.225906 83.598808 90.41143 97.312492 100.16228 105.84197 111.52166 116.62865 118.89703" y="148.31801" id="tspan11385" style="font-size:12.44999981px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">USB device</tspan>
+  </text>
+  <text x="125.42455" y="228.79353" id="text11389" style="font-size:15px">
+    <tspan x="125.42455 131.13538 139.67236" y="228.79353" id="tspan11391" style="font-size:12.44999981px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">0mA</tspan>
+  </text>
+  <text x="93.522636" y="322.62808" id="text11395" style="font-size:15px">
+    <tspan x="93.522636" y="322.62808" id="tspan11399" style="font-size:12.44999981px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">D+</tspan>
+  </text>
+  <text x="99.898796" y="500.0127" id="text11403" style="font-size:15px">
+    <tspan x="99.898796" y="500.0127" id="tspan11405" style="font-size:12.44999981px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">D-</tspan>
+  </text>
+  <text x="295.85046" y="478.74261" id="text11407" style="font-size:15px;line-height:100%">
+    <tspan x="295.85046 303.24078 308.93793 314.63501 318.05383 323.75092 326.03674 331.73389 337.43097 340.28082 345.97791 351.67505 356.79944 359.65796 362.51648 365.29163" y="478.74261" dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.375" dy="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2.5 0 0 0 -2.5 -3 2.875 -2.625 2.625" id="tspan11409" style="font-size:12.44999981px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">Charging host: V
+    <tspan dx="0.375" dy="2.5" id="tspan11411" style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica Narrow">DAT_REF</tspan>&lt; V
+    <tspan dy="2.5 0.125" id="tspan11421" style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica Narrow">D-</tspan>&lt; V
+    <tspan id="tspan11425" style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica Narrow">LGC</tspan></tspan>
+  </text>
+  <text x="507.02542" y="479.36774" id="text11427" style="font-size:15px">
+    <tspan x="507.02542" y="479.36774" id="tspan11431" style="font-size:11.25px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">Dedicated Charging Port</tspan>
+  </text>
+  <text x="507.02542" y="479.36774" id="text11435" style="font-size:15px">
+    <tspan x="507.02542 513.66406 518.83789 523.94653 526.9964 532.10504 534.20319 539.31177 544.42041 546.96967 553.60828 558.71692 563.36542 565.91467 568.46393 574.59631 579.7049 582.75482 585.2984 587.84198 590.46674 596.08148" y="498.41736" id="tspan11439" style="font-size:11.25px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">Charging Host Port, FS</tspan>
+  </text>
+  <text x="316.67548" y="396.56769" id="text11443" style="font-size:15px">
+    <tspan x="316.67548 322.34894 325.19873 333.69836" y="396.56769" id="tspan11445" style="font-size:12.44999981px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">1 ms</tspan>
+  </text>
+  <text x="251.7005" y="91.317703" id="text11447" style="font-size:15px;line-height:100%">
+    <tspan x="251.7005" y="91.317703" dx="0 1.3180856e-10" dy="0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3.75 0 0 2.75" id="tspan11449" style="font-size:9.97500038px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">
+    <tspan dx="-1.75" dy="-3" id="tspan11453" style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica Narrow">T</tspan>UNIT_CON_ELAPSED 
+    <tspan dy="-1 1 -3" id="tspan11451" style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica Narrow">= T</tspan>SEQ_INIT</tspan>
+  </text>
+  <text x="246.60675" y="161.3177" id="text11455" style="font-size:15px;line-height:100%">
+    <tspan x="246.60675" y="161.3177" dy="0 2.75" id="tspan11457" style="font-size:9.97500038px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">
+    <tspan dy="-3" id="tspan11461" style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica Narrow">T</tspan>SEQ_INIT</tspan>
+  </text>
+  <text x="298.10675" y="301.38022" id="text11463" style="font-size:15px;line-height:125%">
+    <tspan x="298.10675" y="301.38022" dy="0" id="tspan11465" style="font-size:9.97500038px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">
+      <tspan dy="-3" id="tspan11467" style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica Narrow">T
+      <tspan dy="2.65165" id="tspan11471" style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica Narrow">DCD_DBNC</tspan></tspan>
+    </tspan>
+  </text>
+  <text x="490.25046" y="349.69272" id="text11481" style="font-size:15px">
+    <tspan x="490.25046 497.63577 505.02115 511.84622 519.23151 526.05664 531.74878 539.13409" y="349.69272" id="tspan11483" style="font-size:12.44999981px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">CHECK_DM</tspan>
+  </text>
+  <text x="542.3504" y="166.54271" id="text11485" style="font-size:15px">
+    <tspan x="542.3504" y="166.54271" id="tspan11489" style="font-size:11.25px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">Dedicated Charger</tspan>
+  </text>
+  <text x="542.3504" y="166.54271" id="text11493" style="font-size:15px">
+    <tspan x="542.3504 548.98114 554.08191 559.18268 562.22467 567.32544 569.42352 574.52429 579.62512 582.24969 588.88043 594.05432 598.63757" y="185.59233" id="tspan11497" style="font-size:11.25px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">Charging Host</tspan>
+  </text>
+  <text x="407.29309" y="136.84419" id="text11505" style="font-size:15px">
+    <tspan x="407.29309 413.93286 419.0426 424.15234 426.25049 430.84271 435.95245 438.49719 443.67108 448.78082 451.33008 457.96985 463.07956 468.1893 471.24026 476.41415 481.51376" y="136.84419" id="tspan11507" style="font-size:11.25px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">Dedicated Charger</tspan>
+    <tspan x="407.29309 413.92383 419.0246 424.12531 427.16736 432.26807 434.36621 439.46698 444.56769 447.19232 453.82306 458.99695 463.58017" y="155.89384" id="tspan11509" style="font-size:11.25px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">Charging Host</tspan>
+  </text>
+  <text x="310.25049" y="346.71774" id="text11511" style="font-size:15px;line-height:125%">
+    <tspan x="310.25049" y="346.71774" dx="0 -5.2208238e-14" dy="0 2.75" id="tspan11513" style="font-size:9.97500038px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">
+    <tspan dx="-1.375" dy="-2.75" id="tspan11515" style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica Narrow">T</tspan>VDPSRC_ON</tspan>
+  </text>
+  <path d="m 485.55463,357.77395 0,13.375" id="path11517" style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 485.19422,364.3677 16.71875,0" id="path11519" style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#Arrow1Mend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path d="m 504.32295,356.7069 -0.0442,13.50132" id="path12126" style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <text x="408.11859" y="401.70483" id="text12128" style="font-size:15px;line-height:125%">
+    <tspan x="408.11859" y="401.70483" dx="0 0.17677666" dy="0 3.1819799" id="tspan12130" style="font-size:9.97500038px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">
+    <tspan dx="-0.88388348" dy="-3.1819799" id="tspan12132" style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica Narrow">T</tspan>VDPSRC_CON</tspan>
+  </text>
+  <text x="511.85043" y="574.21759" id="text12134" style="font-size:15px;line-height:125%">
+    <tspan x="511.85043" y="574.21759" dx="0 0.125" dy="0 3.375" id="tspan12136" style="font-size:9.97500038px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">
+    <tspan dx="-1.125" dy="-3.125" id="tspan12138" style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica Narrow">T</tspan>CON_IDPSNK_DIS</tspan>
+  </text>
+  <text x="357.62549" y="637.84259" id="text12140" style="font-size:15px;line-height:125%">
+    <tspan x="357.62549" y="637.84259" dx="0 0.125" dy="0 3.0625" id="tspan12142" style="font-size:9.97500038px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">
+    <tspan dx="-0.125" dy="-3.0625" id="tspan12144" style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica Narrow">T</tspan>VDMSRC_DIS</tspan>
+  </text>
+  <text x="383.11127" y="527.64893" id="text12146" style="font-size:15px;line-height:100%">
+    <tspan x="383.11127" y="527.64893" dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.25" dy="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 -3.5" id="tspan12148" style="font-size:12.44999981px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">Standard host: V
+    <tspan dy="2.75" id="tspan12150" style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica Narrow">D</tspan>
+    <tspan dx="0.25" dy="-0.25" id="tspan12154" style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica Narrow">-</tspan>&lt; V
+    <tspan dx="-1.3180002e-10" dy="3" id="tspan12152" style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica Narrow">DAT REF</tspan></tspan>
+  </text>
+  <text x="245.39893" y="652.31763" id="text12156" style="font-size:15px;line-height:125%">
+    <tspan x="245.39893" y="652.31763" dx="0 0.3535533" dy="0 3.5355332" id="tspan12158" style="font-size:9.97500038px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">
+    <tspan dx="-1.0606601" dy="-3.5355332" id="tspan12160" style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica Narrow">T</tspan>VDMSRC_EN</tspan>
+  </text>
+  <text x="117.60046" y="489.06775" id="text12166" style="font-size:15px">
+    <tspan x="117.60046" y="489.06775" id="tspan12172" style="font-size:12.44999981px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">lgc_hi</tspan>
+  </text>
+  <text x="118.85046" y="506.56775" id="text12178" style="font-size:15px">
+    <tspan x="118.85046" y="506.56775" id="tspan12180" style="font-size:12.44999981px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">lgc_lo</tspan>
+  </text>
+  <text x="134.9505" y="434.09271" id="text12182" style="font-size:15px">
+    <tspan x="134.2757 139.97034 142.82635" y="451.7182" id="tspan12186" style="font-size:12.44999981px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">off</tspan>
+  </text>
+  <text x="134.9505" y="433.09271" id="text12190" style="font-size:15px">
+    <tspan x="134.9505" y="433.09271" id="tspan12192" style="font-size:12.44999981px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">on</tspan>
+  </text>
+  <text x="134.9505" y="365.34268" id="text12194" style="font-size:15px">
+    <tspan x="134.2757 139.97034 142.82635" y="382.9682" id="tspan12196" style="font-size:12.44999981px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">off</tspan>
+  </text>
+  <text x="134.9505" y="364.34268" id="text12198" style="font-size:15px">
+    <tspan x="134.9505" y="364.34268" id="tspan12200" style="font-size:12.44999981px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">on</tspan>
+  </text>
+  <text x="116.89336" y="311.93747" id="text12202" style="font-size:15px">
+    <tspan x="116.89336" y="311.93747" id="tspan12204" style="font-size:12.44999981px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">lgc_hi</tspan>
+  </text>
+  <text x="118.14336" y="329.43747" id="text12206" style="font-size:15px">
+    <tspan x="118.14336" y="329.43747" id="tspan12208" style="font-size:12.44999981px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">lgc_lo</tspan>
+  </text>
+  <text x="134.24335" y="267.05484" id="text12210" style="font-size:15px">
+    <tspan x="133.5686 139.26318 142.11926" y="284.68033" id="tspan12212" style="font-size:12.44999981px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">off</tspan>
+  </text>
+  <text x="134.24335" y="266.05484" id="text12214" style="font-size:15px">
+    <tspan x="134.24335" y="266.05484" id="tspan12216" style="font-size:12.44999981px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">on</tspan>
+  </text>
+  <text x="135.4505" y="578.85974" id="text12218" style="font-size:15px">
+    <tspan x="134.7757 140.47034 143.32635" y="596.48523" id="tspan12220" style="font-size:12.44999981px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">off</tspan>
+  </text>
+  <text x="135.4505" y="578.65521" id="text12222" style="font-size:15px">
+    <tspan x="135.4505" y="578.65521" id="tspan12224" style="font-size:12.44999981px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">on</tspan>
+  </text>
+  <text x="131.16364" y="663.35901" id="text12226" style="font-size:15px">
+    <tspan x="130.48883 136.18347 139.03949" y="680.9845" id="tspan12228" style="font-size:12.44999981px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">off</tspan>
+  </text>
+  <text x="131.16364" y="663.15448" id="text12230" style="font-size:15px">
+    <tspan x="131.16364" y="663.15448" id="tspan12232" style="font-size:12.44999981px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">on</tspan>
+  </text>
+  <text x="124.37023" y="215.96767" id="text12234" style="font-size:15px;line-height:125%">
+    <tspan x="124.37023" y="215.96767" dx="0 0.35355338" dy="0 3.4471467" id="tspan12236" style="font-size:9.97500038px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">
+    <tspan dx="-0.35355338" dy="-3.4471467" id="tspan12238" style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica Narrow">I</tspan>SUSP</tspan>
+  </text>
+  <text x="86.862236" y="265.81595" id="text12240" style="font-size:15px;line-height:125%">
+    <tspan x="86.862236" y="265.81595" dx="0 0.26516503" dy="0 2.8284276" id="tspan12242" style="font-size:9.97500038px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">
+    <tspan dx="-0.26516503" dy="-2.8284276" id="tspan12244" style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica Narrow">I</tspan>DP_SRC</tspan>
+  </text>
+  <text x="80.25045" y="283.69272" id="text12246" style="font-size:15px;line-height:125%">
+    <tspan x="80.25045" y="283.69272" dx="0 0.375" dy="0 3.625" id="tspan12248" style="font-size:9.97500038px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">
+    <tspan dx="-0.375" dy="-3.625" id="tspan12250" style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica Narrow">R</tspan>DM_DWN</tspan>
+  </text>
+  <text x="87.71154" y="363.79276" id="text12252" style="font-size:15px;line-height:125%;display:inline">
+    <tspan x="87.71154" y="363.79276" dx="0 0.17677666" dy="0 3.3587565" id="tspan12254" style="font-size:9.97500038px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">
+    <tspan dx="-0.17677666" dy="-3.3587565" id="tspan12256" style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica Narrow">V</tspan>DP_SRC</tspan>
+  </text>
+  <text x="87.625603" y="381.59442" id="text12258" style="font-size:15px;line-height:125%;display:inline">
+    <tspan x="87.625603" y="381.59442" dx="0 0.35355338" dy="0 3.5355332" id="tspan12260" style="font-size:9.97500038px;font-variant:normal;font-weight:normal;font-stretch:condensed;writing-mode:lr-tb;fill:#000000;;stroke:none;font-family:Helvetica Narrow">
+    <tspan dx="-0.35355338" dy="-3.5355332" id="tspan12262" style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Helvetica Narrow">I</tspan>DM_SINK</tspan>
+  </text>
+  <text x="249.2211" y="36.210434" id="text2640" xml:space="preserve" style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:none;font-family:Helvetica">
+<tspan x="249.2211" y="36.210434" id="tspan2642">Data Pin</tspan>
+</text>
+  <text x="250.56607" y="47.473984" id="text2644" xml:space="preserve" style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:none;font-family:Helvetica">
+<tspan x="250.56607" y="47.473984" id="tspan2646">Contact</tspan>
+</text>
+  <text x="246.44766" y="58.610428" id="text2648" xml:space="preserve" style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:none;font-family:Helvetica">
+<tspan x="246.44766" y="58.610428" id="tspan2650">Detection</tspan>
+</text>
+  <text x="344.33951" y="40.036102" id="text2652" xml:space="preserve" style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:none;font-family:Helvetica">
+<tspan x="344.33951" y="40.036102" id="tspan2654">Charging Port</tspan>
+</text>
+  <text x="354.94763" y="52.541885" id="text2656" xml:space="preserve" style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:none;font-family:Helvetica">
+<tspan x="354.94763" y="52.541885" id="tspan2658">Detection</tspan>
+</text>
+  <text x="492.16287" y="36.330429" id="text2660" xml:space="preserve" style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:none;font-family:Helvetica">
+<tspan x="492.16287" y="36.330429" id="tspan2662">Charger</tspan>
+</text>
+  <text x="499.87772" y="46.897614" id="text2664" xml:space="preserve" style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:none;font-family:Helvetica">
+<tspan x="499.87772" y="46.897614" id="tspan2666">Type</tspan>
+</text>
+  <text x="488.64767" y="58.610428" id="text2668" xml:space="preserve" style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:none;font-family:Helvetica">
+<tspan x="488.64767" y="58.610428" id="tspan2670">Detection</tspan>
+</text>
+  <text x="566.88593" y="47.907288" id="text2672" xml:space="preserve" style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:none;font-family:Helvetica">
+<tspan x="566.88593" y="47.907288" id="tspan2674">Timeout</tspan>
+</text>
+  <text x="176.93562" y="39.916107" id="text2676" xml:space="preserve" style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke:none;font-family:Helvetica">
+<tspan x="176.93562" y="39.916107" id="tspan2678">Initial</tspan>
+</text>
+  <text x="176.88213" y="52.51532" id="text2680" xml:space="preserve" style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke:none;font-family:Helvetica">
+<tspan x="176.88213" y="52.51532" id="tspan2682">Conditions</tspan>
+</text>
+</svg>

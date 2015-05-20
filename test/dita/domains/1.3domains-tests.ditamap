@@ -20,6 +20,8 @@
     <topicref
       href="topics/svg-tests.dita"/>
     <topicref
+      href="topics/svg-font-tests.dita"/>
+    <topicref
       href="topics/mathml-tests.dita"/>
   </topicref>
 </map>
