@@ -75,7 +75,7 @@ in the generated HTML.
 
 It also provides the option of including
 a reference to the open-source MathJax Javascript library in your
-HTML pages ([https://www.mathjax.org]). The MathJax library provides high-quality MathML rendering
+HTML pages (https://www.mathjax.org). The MathJax library provides high-quality MathML rendering
 in all Javascript-enabled browsers. However, it is a large library and
 if you're publishing your HTML behind a firewall or in a high-security
 environment you may need to turn off the MathJax include or use a 
@@ -102,7 +102,7 @@ FOP supports inline SVG rendering if the Apache JEuclid library is available, wh
 is not by default. Installing it requires copying two Java jar files into the fop/lib 
 directory in the org.dita.pdf2 plugin.
 
-See [http://jeuclid.sourceforge.net/jeuclid-fop/index.html]
+See http://jeuclid.sourceforge.net/jeuclid-fop/index.html
 
 Note that as of May 2015 the JEuclid project appears to be dormant. The collective
 opinion of math publishers is that JEuclid is not sufficient for professional
@@ -165,3 +165,14 @@ Option (3) tends to result in unexpected results. In the normal DITA case it
 means that the graphic will be scaled *up* to fill the available space, either
 the browser window for HTML or the current column width for PDF. This is usually
 not what you want.  
+
+## Test Documents
+
+The project and distribution package include a set of test documents, including
+MathML and SVG samples, used to test the plugins.
+
+The file test/dita/dita13vocabulary-test.ditamap is the root map for the test
+documents.
+
+You can use this map and its referenced topics and other resources to test
+the 1.3 support and as a model for your own documents.
