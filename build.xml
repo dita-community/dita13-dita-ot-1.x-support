@@ -8,6 +8,7 @@
   <property file="${user.home}/build.properties"/>
 	
 	<property name="license.dir" location="${basedir}"/>
+	<property name="test.dir" location="${basedir}/test"/>
   <property name="toolkit.plugin.src" location="${basedir}"/>
   <property name="temp" location="${basedir}/temp"/>
   <property name="dita-ot-dir" location="c:\DITA-OT1.5"/>
@@ -80,6 +81,13 @@
 				<include name="org.oasis-open.dita.dita13.doctypes/**"/> 
 				<exclude name="*.zip"/> 
 			</fileset>
+		  <fileset dir="${basedir}">
+		    <include name="test/dita/**"/>
+		    <exclude name="**/out/**"/>
+		    <exclude name="**/output/**"/>
+		    <exclude name="**/temp/**"/>
+		    <exclude name="**/html/**"/>
+		  </fileset>
 		</copy>
 		
 		<!-- FIXME: Make this work  -->

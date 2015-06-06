@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<root>
-  <title>MathML Equations</title>
-  <m:math id="equation-01" xmlns:m="http://www.w3.org/1998/Math/MathML" display="inline" overflow="scroll"><m:mi mathvariant="bold-script">ℒ</m:mi><m:mi mathvariant="bold-script">S</m:mi><m:mspace width="0.3em" class="thinspace"/><m:mfenced separators="" open="(" close=")"><m:mrow><m:mi>A</m:mi><m:mo class="MathClass-punc">,</m:mo><m:mspace width="0.3em" class="thinspace"/><m:mi>b</m:mi></m:mrow></m:mfenced></m:math>
-</root>

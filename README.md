@@ -13,8 +13,19 @@ DITA preprocessing.
 
 ## Installation
 
-The project includes four Open Toolkit plugins. To
-install them do:
+The project includes four Open Toolkit plugins and a "test"
+directory:
+
+* org.dita-community.common.xslt (this plugin may already be installed if you've
+installed any DITA for Publishers transformation types or if you're using
+oXygenXML's out-of-the-box Open Toolkit).
+* org.dita-community.dita13.html
+* org.dita-community.dita13.pdf
+* org.dita-community.dita13.doctypes (Note that this plugin is managed
+as a standalone repository in the DITA Community organization and is 
+included in this distribution as a convenience).
+
+To install the plugins do:
 
 1. Unzip the distribution package somewhere convenient
 2. Copy the four plugin directories to your Open Toolkit's plugins/ directory
