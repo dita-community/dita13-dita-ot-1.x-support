@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "topic.dtd">
+<topic id="topic_aq3_yn3_bs">
+  <title>SVG Tests</title>
+  <body>
+    <p>This topic contains tests of the different ways to embed or refer to SVG graphics as well as references to SVG graphics that exercise different SVG features.</p>
+    <fig
+      id="fig_er2_143_bs">
+      <title>Inline SVG</title>
+      <p> <svg-container
+        class="+ topic/foreign svg-d/svg-container "><svg:svg
+        xmlns:svg="http://www.w3.org/2000/svg"
+        height="150"
+        width="500"><svg:ellipse
+        cx="240"
+        cy="100"
+        rx="220"
+        ry="30"
+        style="fill:purple"/><svg:ellipse
+        cx="220"
+        cy="70"
+        rx="190"
+        ry="20"
+        style="fill:lime"/><svg:ellipse
+        cx="210"
+        cy="45"
+        rx="170"
+        ry="15"
+        style="fill:yellow"/></svg:svg></svg-container> </p>
+    </fig>
+    <fig
+      id="fig_fr2_143_bs">
+      <title>SVG Reference direct URL reference</title>
+      <p> <svg-container><svgref
+        href="../svg/yinyang.svg"/></svg-container> </p>
+    </fig>
+    <fig
+      id="fig_gr2_143_bs">
+      <title>SVG Reference to an SVG element within a larger XML file</title>
+      <desc><xmlatt>viewBox</xmlatt> specified, no <xmlatt>width</xmlatt> or <xmlatt>height</xmlatt> specified (should scale up to fit available space).</desc>
+      <p> <svg-container><svgref
+        href="../svg/svg-graphics.xml#graphic-01"/></svg-container> </p>
+    </fig>
+    <fig
+      id="fig_hr2_143_bs">
+      <title>SVG Reference key reference to key "svg-graphic-02"</title>
+      <desc><xmlatt>viewBox</xmlatt> not specified, no <xmlatt>width</xmlatt> or <xmlatt>height</xmlatt> specified. Should not be scaled up (internal units interpreted as pixels).</desc>
+      <p> <svg-container><svgref
+        keyref="svg-graphic-02"/></svg-container> </p>
+    </fig>
+    <fig
+      id="fig_eg1_ln3_bs">
+      <title>SVG With Image Specified as data:image URI</title>
+      <desc>This graphic includes animation and a bitmap image encoded within the <xmlatt>href</xmlatt> attribute as base-64-encoded data using the data: URN scheme.</desc>
+      <svg-container><svgref
+        href="../svg/animate-elem-30-t.svg"/></svg-container>
+    </fig>
+    <fig
+      id="fig_t15_5lq_bs">
+      <title>Realistic Mechanical Drawing 1</title>
+      <svg-container>
+        <svgref
+          href="../svg/g_MXEngineRadiatorFill.svg"/>
+      </svg-container>
+    </fig>
+    <fig
+      id="fig_nzn_pmq_bs">
+      <title>Realistic Mechanical Drawing 2</title>
+      <svg-container>
+        <svgref
+          href="../svg/g_PBCabHvacControls_Ngp.svg"/>
+      </svg-container>
+    </fig>
+    <fig
+      id="fig_tcb_zlq_bs">
+      <title>Realistic Mechanical Drawing 3</title>
+      <svg-container>
+        <svgref
+          href="../svg/g_SafetyRestraintBeltsCombined.svg"/>
+      </svg-container>
+    </fig>
+    <fig
+      id="fig_vxk_drq_bs">
+      <title>Flow Chart From Visio Via OmniGraffle</title>
+      <svg-container>
+        <svgref
+          href="../svg/LF_EGR-APSPD_P2_lo_plaus_fault_data.svg"/>
+      </svg-container>
+    </fig>
+    <fig
+      id="fig_vjx_2gr_bs">
+      <title>Flow Chart Exported Directly from Visio</title>
+      <svg-container>
+        <svgref
+          href="../svg/Namux%204%20trouble%20tree%20Page1.svg"/>
+      </svg-container>
+    </fig>
+  </body>
+</topic>

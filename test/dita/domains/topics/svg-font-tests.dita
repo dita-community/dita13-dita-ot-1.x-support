@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "topic.dtd">
+<topic id="topic_aq3_yn3_bs">
+  <title>SVG Font Tests</title>
+  <body>
+    <p>These tests exercise the use of various fonts to render non-ASCII characters (e.g., special
+    characters used in mathematical expressions, electrical and electronic diagrams, etc.)</p>
+    <p>These test cases contributed by Freescale Semiconductor.</p>
+    <section>
+      <title>DITA Table With Special Characters</title>
+      <p>The following table includes the same special characters as the referenced SVG graphics. It acts as a baseline for mapping the characters to glyphs by the base DITA output processing, as compared to the SVG rendering processing.</p>
+      <table
+        frame="all"
+        id="Unicode-Table">
+        <title>Special Characters Marked Up as A DITA Table</title>
+        <tgroup
+          cols="9">
+          <colspec
+            colname="name1"
+            colnum="1"/>
+          <colspec
+            align="center"
+            colname="sym1"
+            colnum="2"/>
+          <colspec
+            align="center"
+            colname="dec1"
+            colnum="3"/>
+          <colspec
+            align="center"
+            colname="hex1"
+            colnum="4"/>
+          <colspec
+            colname="spacer"
+            colnum="5"/>
+          <colspec
+            colname="name2"
+            colnum="6"/>
+          <colspec
+            align="center"
+            colname="sym2"
+            colnum="7"/>
+          <colspec
+            align="center"
+            colname="dec2"
+            colnum="8"/>
+          <colspec
+            align="center"
+            colname="hex2"
+            colnum="9"/>
+          <thead>
+            <row>
+              <entry
+                align="center">Name</entry>
+              <entry>Symbol</entry>
+              <entry>Decimal</entry>
+              <entry>Hex</entry>
+              <entry/>
+              <entry
+                align="center">Name</entry>
+              <entry>Symbol</entry>
+              <entry>Decimal</entry>
+              <entry>Hex</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>nbsp</entry>
+              <entry> </entry>
+              <entry> <codeph>&amp;#160;</codeph> </entry>
+              <entry> <codeph>00A0</codeph> </entry>
+              <entry/>
+              <entry>Omega</entry>
+              <entry>Ω</entry>
+              <entry> <codeph>&amp;#937;</codeph> </entry>
+              <entry> <codeph>2126</codeph> </entry>
+            </row>
+            <row>
+              <entry>copy</entry>
+              <entry>©</entry>
+              <entry> <codeph>&amp;#169;</codeph> </entry>
+              <entry> <codeph>00A9</codeph> </entry>
+              <entry/>
+              <entry>alpha</entry>
+              <entry>α</entry>
+              <entry> <codeph>&amp;#945;</codeph> </entry>
+              <entry> <codeph>03B1</codeph> </entry>
+            </row>
+            <row>
+              <entry>reg</entry>
+              <entry>®</entry>
+              <entry> <codeph>&amp;#174;</codeph> </entry>
+              <entry> <codeph>00AE</codeph> </entry>
+              <entry/>
+              <entry>beta</entry>
+              <entry>β</entry>
+              <entry> <codeph>&amp;#946;</codeph> </entry>
+              <entry> <codeph>0392</codeph> </entry>
+            </row>
+            <row>
+              <entry>macr</entry>
+              <entry>¯</entry>
+              <entry> <codeph>&amp;#175;</codeph> </entry>
+              <entry> <codeph>00AF</codeph> </entry>
+              <entry/>
+              <entry>left double quote</entry>
+              <entry>“</entry>
+              <entry> <codeph>&amp;#8220;</codeph> </entry>
+              <entry> <codeph>201C</codeph> </entry>
+            </row>
+            <row>
+              <entry>deg</entry>
+              <entry>°</entry>
+              <entry> <codeph>&amp;#176;</codeph> </entry>
+              <entry> <codeph>00B0</codeph> </entry>
+              <entry/>
+              <entry>right double quote</entry>
+              <entry>”</entry>
+              <entry> <codeph>&amp;#8221;</codeph> </entry>
+              <entry> <codeph>201D</codeph> </entry>
+            </row>
+            <row>
+              <entry>plusmn</entry>
+              <entry>±</entry>
+              <entry> <codeph>&amp;#177;</codeph> </entry>
+              <entry> <codeph>00B1</codeph> </entry>
+              <entry/>
+              <entry>gamma</entry>
+              <entry>γ</entry>
+              <entry> <codeph>&amp;#947;</codeph> </entry>
+              <entry> <codeph>03B3</codeph> </entry>
+            </row>
+            <row>
+              <entry>micro</entry>
+              <entry>µ</entry>
+              <entry> <codeph>&amp;#181;</codeph> </entry>
+              <entry> <codeph>00B5</codeph> </entry>
+              <entry/>
+              <entry>theta</entry>
+              <entry>θ</entry>
+              <entry> <codeph>&amp;#952;</codeph> </entry>
+              <entry> <codeph>03B8</codeph> </entry>
+            </row>
+            <row>
+              <entry>ordm</entry>
+              <entry>º</entry>
+              <entry> <codeph>&amp;#186;</codeph> </entry>
+              <entry> <codeph>00BA</codeph> </entry>
+              <entry/>
+              <entry>iota</entry>
+              <entry>ι</entry>
+              <entry> <codeph>&amp;#953;</codeph> </entry>
+              <entry> <codeph>03B9</codeph> </entry>
+            </row>
+            <row>
+              <entry>times</entry>
+              <entry>×</entry>
+              <entry> <codeph>&amp;#215;</codeph> </entry>
+              <entry> <codeph>00D7</codeph> </entry>
+              <entry/>
+              <entry>kappa</entry>
+              <entry>κ</entry>
+              <entry> <codeph>&amp;#954;</codeph> </entry>
+              <entry> <codeph>03BA</codeph> </entry>
+            </row>
+            <row>
+              <entry>divide</entry>
+              <entry>÷</entry>
+              <entry> <codeph>&amp;#247;</codeph> </entry>
+              <entry> <codeph>00F7</codeph> </entry>
+              <entry/>
+              <entry>lambda</entry>
+              <entry>λ</entry>
+              <entry> <codeph>&amp;#955;</codeph> </entry>
+              <entry> <codeph>03BB</codeph> </entry>
+            </row>
+            <row>
+              <entry>quot</entry>
+              <entry>"</entry>
+              <entry> <codeph>&amp;#34;</codeph> </entry>
+              <entry> <codeph>0022</codeph> </entry>
+              <entry/>
+              <entry>mu</entry>
+              <entry>μ</entry>
+              <entry> <codeph>&amp;#956;</codeph> </entry>
+              <entry> <codeph>03BC</codeph> </entry>
+            </row>
+            <row>
+              <entry>amp</entry>
+              <entry>&amp;</entry>
+              <entry> <codeph>&amp;#38;</codeph> </entry>
+              <entry> <codeph>0026</codeph> </entry>
+              <entry/>
+              <entry>pi</entry>
+              <entry>π</entry>
+              <entry> <codeph>&amp;#960;</codeph> </entry>
+              <entry> <codeph>03C0</codeph> </entry>
+            </row>
+            <row>
+              <entry>apos</entry>
+              <entry>'</entry>
+              <entry> <codeph>&amp;#39;</codeph> </entry>
+              <entry> <codeph>0027</codeph> </entry>
+              <entry/>
+              <entry>sigma</entry>
+              <entry>σ</entry>
+              <entry> <codeph>&amp;#963;</codeph> </entry>
+              <entry> <codeph>03C3</codeph> </entry>
+            </row>
+            <row>
+              <entry>lt</entry>
+              <entry>&lt;</entry>
+              <entry> <codeph>&amp;#60;</codeph> </entry>
+              <entry> <codeph>003C</codeph> </entry>
+              <entry/>
+              <entry>oline</entry>
+              <entry>‾</entry>
+              <entry> <codeph>&amp;#8254;</codeph> </entry>
+              <entry> <codeph>203E</codeph> </entry>
+            </row>
+            <row>
+              <entry>gt</entry>
+              <entry>&gt;</entry>
+              <entry> <codeph>&amp;#62;</codeph> </entry>
+              <entry> <codeph>003E</codeph> </entry>
+              <entry/>
+              <entry>frasl</entry>
+              <entry>⁄</entry>
+              <entry> <codeph>&amp;#8260;</codeph> </entry>
+              <entry> <codeph>2044</codeph> </entry>
+            </row>
+            <row>
+              <entry>ensp</entry>
+              <entry> </entry>
+              <entry> <codeph>&amp;#8194;</codeph> </entry>
+              <entry> <codeph>2002</codeph> </entry>
+              <entry/>
+              <entry>trade</entry>
+              <entry>™</entry>
+              <entry> <codeph>&amp;#8482;</codeph> </entry>
+              <entry> <codeph>2122</codeph> </entry>
+            </row>
+            <row>
+              <entry>emsp</entry>
+              <entry> </entry>
+              <entry> <codeph>&amp;#8195;</codeph> </entry>
+              <entry> <codeph>2003</codeph> </entry>
+              <entry/>
+              <entry>minus</entry>
+              <entry>−</entry>
+              <entry> <codeph>&amp;#8722;</codeph> </entry>
+              <entry> <codeph>2212</codeph> </entry>
+            </row>
+            <row>
+              <entry>ndash</entry>
+              <entry>–</entry>
+              <entry> <codeph>&amp;#8211;</codeph> </entry>
+              <entry> <codeph>2013</codeph> </entry>
+              <entry/>
+              <entry>radic</entry>
+              <entry>√</entry>
+              <entry> <codeph>&amp;#8730;</codeph> </entry>
+              <entry> <codeph>221A</codeph> </entry>
+            </row>
+            <row>
+              <entry>mdash</entry>
+              <entry>—</entry>
+              <entry> <codeph>&amp;#8212;</codeph> </entry>
+              <entry> <codeph>2014</codeph> </entry>
+              <entry/>
+              <entry>infin</entry>
+              <entry>∞</entry>
+              <entry> <codeph>&amp;#8734;</codeph> </entry>
+              <entry> <codeph>221E</codeph> </entry>
+            </row>
+            <row>
+              <entry>Delta</entry>
+              <entry>Δ</entry>
+              <entry> <codeph>&amp;#916;</codeph> </entry>
+              <entry> <codeph>0394</codeph> </entry>
+              <entry/>
+              <entry>cong</entry>
+              <entry>≅</entry>
+              <entry> <codeph>&amp;#8773;</codeph> </entry>
+              <entry> <codeph>2245</codeph> </entry>
+            </row>
+            <row>
+              <entry>Theta</entry>
+              <entry>Θ</entry>
+              <entry> <codeph>&amp;#920;</codeph> </entry>
+              <entry> <codeph>0398</codeph> </entry>
+              <entry/>
+              <entry>asymp</entry>
+              <entry>≈</entry>
+              <entry> <codeph>&amp;#8776;</codeph> </entry>
+              <entry> <codeph>2248</codeph> </entry>
+            </row>
+            <row>
+              <entry>Lambda</entry>
+              <entry>Λ</entry>
+              <entry> <codeph>&amp;#923;</codeph> </entry>
+              <entry> <codeph>039B</codeph> </entry>
+              <entry/>
+              <entry>ne</entry>
+              <entry>≠</entry>
+              <entry> <codeph>&amp;#8800;</codeph> </entry>
+              <entry> <codeph>2260</codeph> </entry>
+            </row>
+            <row>
+              <entry>Pi</entry>
+              <entry>Π</entry>
+              <entry> <codeph>&amp;#928;</codeph> </entry>
+              <entry> <codeph>03A0</codeph> </entry>
+              <entry/>
+              <entry>eqiv</entry>
+              <entry>≡</entry>
+              <entry> <codeph>&amp;#8801;</codeph> </entry>
+              <entry> <codeph>2261</codeph> </entry>
+            </row>
+            <row>
+              <entry>Sigma</entry>
+              <entry>Σ</entry>
+              <entry> <codeph>&amp;#963;</codeph> </entry>
+              <entry> <codeph>03A3</codeph> </entry>
+              <entry/>
+              <entry>le</entry>
+              <entry>≤</entry>
+              <entry> <codeph>&amp;#8804;</codeph> </entry>
+              <entry> <codeph>2264</codeph> </entry>
+            </row>
+            <row>
+              <entry>Phi</entry>
+              <entry>Φ</entry>
+              <entry> <codeph>&amp;#934;</codeph> </entry>
+              <entry> <codeph>03A6</codeph> </entry>
+              <entry/>
+              <entry>ge</entry>
+              <entry>≥</entry>
+              <entry> <codeph>&amp;#8805;</codeph> </entry>
+              <entry> <codeph>2265</codeph> </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section>
+      <title>SVG Graphics With Special Characters</title>
+      <fig
+        id="Table-Graphic-Unicode-plain-AkzidenzGrotesk">
+        <title>Table-Graphic-Unicode-plain-AkzidenzGrotesk</title>
+        <p><svg-container>
+          <svgref
+            href="../svg/font-tests/Table-Graphic-Unicode-plain-AkzidenzGrotesk.svg"/>
+        </svg-container></p>
+      </fig>
+      <fig
+        id="Table-Graphic-Unicode-plain-Arial">
+        <title>Table-Graphic-Unicode-plain-Arial</title>
+        <p><svg-container>
+          <svgref
+            href="../svg/font-tests/Table-Graphic-Unicode-plain-Arial.svg"/>
+        </svg-container></p>
+      </fig>
+      <fig
+        id="Table-Graphic-Unicode-plain-CourierNew">
+        <title>Table-Graphic-Unicode-plain-CourierNew</title>
+        <p><svg-container>
+          <svgref
+            href="../svg/font-tests/Table-Graphic-Unicode-plain-CourierNew.svg"/>
+        </svg-container></p>
+      </fig>
+      <fig
+        id="Table-Graphic-Unicode-plain-Helvetica-Narrow">
+        <title>Table-Graphic-Unicode-plain-Helvetica-Narrow</title>
+        <p><svg-container>
+          <svgref
+            href="../svg/font-tests/Table-Graphic-Unicode-plain-Helvetica-Narrow.svg"/>
+        </svg-container></p>
+      </fig>
+      <fig
+        id="Table-Graphic-Unicode-plain-HelveticaLtStd">
+        <title>Table-Graphic-Unicode-plain-HelveticaLtStd</title>
+        <p><svg-container>
+          <svgref
+            href="../svg/font-tests/Table-Graphic-Unicode-plain-HelveticaLtStd.svg"/>
+        </svg-container></p>
+      </fig>
+      <fig
+        id="Table-Graphic-Unicode-plain-MSsansSerif">
+        <title>Table-Graphic-Unicode-plain-MSsansSerif</title>
+        <p><svg-container>
+          <svgref
+            href="../svg/font-tests/Table-Graphic-Unicode-plain-MSsansSerif.svg"/>
+        </svg-container></p>
+      </fig>
+      <fig
+        id="Table-Graphic-Unicode-plain-TimesNewRoman">
+        <title>Table-Graphic-Unicode-plain-TimesNewRoman</title>
+        <p><svg-container>
+          <svgref
+            href="../svg/font-tests/Table-Graphic-Unicode-plain-TimesNewRoman.svg"/>
+        </svg-container></p>
+      </fig>
+      <fig
+        id="Table-Graphic-Unicode-plain-Verdana">
+        <title>Table-Graphic-Unicode-plain-Verdana</title>
+        <p><svg-container>
+          <svgref
+            href="../svg/font-tests/Table-Graphic-Unicode-plain-Verdana.svg"/>
+        </svg-container></p>
+      </fig>
+      <fig
+        id="Table-Graphic-Unicode-plain-monospace">
+        <title>Table-Graphic-Unicode-plain-monospace</title>
+        <p><svg-container>
+          <svgref
+            href="../svg/font-tests/Table-Graphic-Unicode-plain-monospace.svg"/>
+        </svg-container></p>
+      </fig>
+      <fig
+        id="Table-Graphic-Unicode-plain-sans-serif">
+        <title>Table-Graphic-Unicode-plain-sans-serif</title>
+        <p><svg-container>
+          <svgref
+            href="../svg/font-tests/Table-Graphic-Unicode-plain-sans-serif.svg"/>
+        </svg-container></p>
+      </fig>
+      <fig
+        id="Table-Graphic-Unicode-plain-serif">
+        <title>Table-Graphic-Unicode-plain-serif</title>
+        <p><svg-container>
+          <svgref
+            href="../svg/font-tests/Table-Graphic-Unicode-plain-serif.svg"/>
+        </svg-container></p>
+      </fig>
+      <fig
+        id="Table-Graphic-Unicode-plain-symbol">
+        <title>Table-Graphic-Unicode-plain-symbol</title>
+        <p><svg-container>
+          <svgref
+            href="../svg/font-tests/Table-Graphic-Unicode-plain-symbol.svg"/>
+        </svg-container></p>
+      </fig>
+      <fig
+        id="full_speed_charger_detection_timing">
+        <title>full_speed_charger_detection_timing</title>
+        <p><svg-container>
+          <svgref
+            href="../svg/font-tests/full_speed_charger_detection_timing.svg"/>
+        </svg-container></p>
+      </fig>
+    </section>
+  </body>
+</topic>

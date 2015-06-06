@@ -10,10 +10,16 @@
        Copyright (c) DITA Community
        ===================================================== -->  
   
+  <!-- Copied from DITA Community common.xslt plugin -->
+  <xsl:import href="plugin:org.dita-community.common.xslt:xsl/relpath_util.xsl"/>
+  <xsl:import href="plugin:org.dita-community.common.xslt:xsl/dita-support-lib.xsl"/>
   
+  <xsl:include href="mathmlSvgCommon.xsl"/>
+  <xsl:include href="localFunctions.xsl"/>
   <xsl:include href="dita13base2html.xsl"/>
   <xsl:include href="dita-troubleshooting2html.xsl"/>
   <xsl:include href="equation-d2html.xsl"/>
+  <xsl:include href="hi-d2html.xsl"/>
   <xsl:include href="learning2domain2html.xsl"/>
   <xsl:include href="mathml-d2html.xsl"/>
   <xsl:include href="svg-d2html.xsl"/>
