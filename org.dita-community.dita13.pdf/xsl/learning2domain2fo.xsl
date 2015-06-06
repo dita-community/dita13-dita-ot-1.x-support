@@ -165,7 +165,7 @@
   </xsl:attribute-set>
   
   <xsl:attribute-set name="lc-answer-option-group">
-    <xsl:attribute name="provisional-distance-between-starts" select="'12pt'"/>
+    <xsl:attribute name="provisional-distance-between-starts" select="'14pt'"/>
     <xsl:attribute name="provisional-label-separation" select="'4pt'"/>
   </xsl:attribute-set>
   <xsl:attribute-set name="lc-answer-option-item"
