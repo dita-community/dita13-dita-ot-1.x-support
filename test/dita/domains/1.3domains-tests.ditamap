@@ -20,6 +20,10 @@
     <topicref
       href="topics/svg-tests.dita"/>
     <topicref
+      href="topics/radu-svg-test-01.dita"/>
+    <topicref
+      href="topics/radu-svg-test-02.dita"/>
+    <topicref
       href="topics/svg-font-tests.dita"/>
     <topicref
       href="topics/mathml-tests.dita"/>

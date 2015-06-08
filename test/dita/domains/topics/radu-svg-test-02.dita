@@ -1,0 +1,8 @@
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.3 Topic//EN" "topic.dtd">
+    <topic id="topic_tfm_thl_hs">
+      <title>Radu SVG Test 2</title>
+      <body>
+    <p>Test of SVG reference. Note, having the SVG file in the same directory is exactly how Radu constructed the test case as reported.</p>
+        <p>abc<svg-container><svgref href="shapes.svg"/></svg-container>zzz</p>
+      </body>
+    </topic>
