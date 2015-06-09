@@ -227,6 +227,7 @@
     <xsl:variable name="format" as="xs:string"
         select="if ($xref/@format) then $xref/@format else 'dita'"
     />
+    <!-- NOTE: xtrf value is a file-system-specific path, not a URI -->
     <xsl:variable name="xtrf" select="($xref/ancestor-or-self::*[@xtrf])[last()]/@xtrf" as="xs:string?"/>
     <xsl:variable name="isPDFMergedMap " as="xs:boolean" select="boolean(root($xref)/*/opentopic:map)"/>
     
@@ -239,10 +240,10 @@
     
     <xsl:variable name="refContextNode" as="node()?"
       select="if ($isPDFMergedMap)
-                 then (document($mappath)/*)
+                 then (document(relpath:toUrl($mappath))/*)
                  else if (not($xtrf) and ($format = ('dita', 'ditamap'))) 
                       then $xref 
-                      else document($xtrf)/*"
+                      else document(relpath:toUrl($xtrf))/*"
     />
     <xsl:sequence select="$refContextNode"/>
   </xsl:function>
