@@ -451,4 +451,22 @@
       </fig>
     </section>
   </body>
+  <topic
+    id="topic_ttw_sn4_hs">
+    <title>SVG With Czech Characters and an Inline Font</title>
+    <body>
+      <p>Sample from Jirka Kosek as posted to the XEP list.</p>
+      <p>This is a large graphic (210x297mm).</p>
+      <p>These characters: "<ph
+        xml:lang="pl-PL">ůči</ph>" seem to be the problematic ones.</p>
+      <fig
+        id="fig_ps5_zn4_hs">
+        <title>Czech SVG</title>
+        <svg-container>
+          <svgref
+            href="../svg/principy-CAP.svg"/>
+        </svg-container>
+      </fig>
+    </body>
+  </topic>
 </topic>
