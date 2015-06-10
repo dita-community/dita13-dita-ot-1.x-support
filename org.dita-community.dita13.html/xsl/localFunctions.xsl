@@ -27,11 +27,13 @@
     <!-- Get the keys.xml file and look up the key name.
       -->
     <xsl:variable name="keydefsURI" as="xs:string" 
-      select="concat($tempdir, '/', 'keydef.xml')"
+      select="relpath:newFile(relpath:toUrl($tempdir), 'keydef.xml')"
     />
+    <xsl:message> + [DEBUG] local:getURIForKeyref(): keydefsURI="<xsl:value-of select="$keydefsURI"/>"</xsl:message>
     <xsl:variable name="keydefDoc" as="document-node()?"
-      select="document($keydefsURI)"
+      select="document($keydefsURI, root($keyref))"
     />
+    <xsl:message> + [DEBUG] local:getURIForKeyref(): document-uri($keydefDoc)="<xsl:value-of select="document-uri($keydefDoc)"/>"</xsl:message>
     
     <xsl:variable name="result" as="xs:string?">
       <xsl:choose>
@@ -53,14 +55,21 @@
                        then $keyref/../@format 
                        else 'dita'"
           />
+          <xsl:message> + [DEBUG] local:getURIForKeyref(): mappath="<xsl:value-of select="$mappath"/>"</xsl:message>
           <xsl:variable name="contextDoc" as="document-node()?"
             select="if (not($format = ('dita', 'ditamap'))) 
-                       then document($mappath) 
+                       then document(relpath:toUrl($mappath)) 
                        else $keydefDoc"
           />
+          <xsl:variable name="keydefURI" as="xs:string" select="$keydef/@href"/>
+          <xsl:message> + [DEBUG] local:getURIForKeyref(): keydefURI="<xsl:value-of select="$keydefURI"/>"</xsl:message>
+          <xsl:variable name="contextDocUri" as="xs:anyURI" 
+            select="document-uri($contextDoc)"/>
+          <xsl:message> + [DEBUG] local:getURIForKeyref(): contextDocUri="<xsl:value-of select="$contextDocUri"/>"</xsl:message>
           <xsl:variable name="uri" as="xs:string?"
-            select="string(resolve-uri($keydef/@href, document-uri($contextDoc)))"
+            select="string(resolve-uri($keydefURI, $contextDocUri))"
           />
+          <xsl:message> + [DEBUG] local:getURIForKeyref(): uri="<xsl:value-of select="$uri"/>"</xsl:message>
           <xsl:sequence select="$uri"/>
         </xsl:otherwise>
       </xsl:choose>
