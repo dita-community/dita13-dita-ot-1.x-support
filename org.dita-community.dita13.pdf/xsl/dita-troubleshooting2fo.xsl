@@ -165,7 +165,7 @@
     </fo:block>
   </xsl:template>
 
-<!-- *** Templates for task-related troubleshooting *** -->
+<!-- *** Template for task-related troubleshooting *** -->
   
   <!-- This template renders tasktroubleshooting and steptroubleshooting
        as if they were note type="trouble".
@@ -195,6 +195,11 @@
         </fo:table-row>
       </fo:table-body>
     </fo:table>
+  </xsl:template>
+
+<!-- *** Template to suppress responsibleParty *** -->  
+  <xsl:template match="*[contains(@class,' troubleshooting/responsibleParty ')]" priority="1">
+    <!-- suppress it -->
   </xsl:template>
 
 </xsl:stylesheet>
