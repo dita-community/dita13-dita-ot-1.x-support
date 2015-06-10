@@ -5,11 +5,13 @@
  <shortdesc>Tests for the XML Domain</shortdesc>
  <conbody>
     <p>Bird songs vary widely among species, from simple songs that are genetically imprinted to complex songs that are learned over a lifetime.</p>
+   <note type="note">This is something that may be noteworthy, but probably not.</note>
     <note type="trouble">If you do get condensation, turn off the camera 
       and wait about two hours before using it. Once 
       the camera adjusts to the surrounding temperature, 
       the fogging will clear naturally.
     </note>
+   <note type="caution">Be very careful.</note>
     <example>
       <p>Flycatchers know their songs from birth:</p>
       <ul>
@@ -82,6 +84,35 @@
     <section>
       <title>Table Test</title>
       <table frame="topbot" rowsep="1" colsep="1">
+        <title>Test Table</title>
+        <tgroup cols="2" align="center">
+          <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+          <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+          <thead>
+            <row>
+              <entry char=".">test</entry>
+              <entry>test</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>test</entry>
+              <entry>test</entry>
+            </row>
+            <row>
+              <entry>test</entry>
+              <entry>test</entry>
+            </row>
+            <row>
+              <entry>test</entry>
+              <entry>test</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section><section>
+      <title>Rotated Table Test</title>
+      <table frame="topbot" rowsep="1" colsep="1" orient="land">
         <title>Test Table</title>
         <tgroup cols="2" align="center">
           <colspec colname="c1" colnum="1" colwidth="1.0*"/>
