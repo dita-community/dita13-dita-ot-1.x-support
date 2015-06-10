@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 1.3 Task//EN" "task.dtd">
+<task id="task_bqj_l4b_3s">
+  <title>Troublesome task</title>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>Do this first.</cmd>
+        <steptroubleshooting>If this didn't work, go do something else.</steptroubleshooting>
+      </step>
+      <step>
+        <cmd>Do this next</cmd>
+      </step>
+    </steps>
+    <result>Everything should work great.</result>
+    <tasktroubleshooting>We are sorry that this didn't work. Go do something else.</tasktroubleshooting>
+    <postreq>Do the next best thing.</postreq>
+  </taskbody>
+</task>
