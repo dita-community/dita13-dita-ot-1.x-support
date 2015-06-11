@@ -7,25 +7,57 @@
        domain.
    -->
    
-   <!--  Put required processing here. -->
+   <xsl:template match="*[contains(@class, ' topic/note ')][@type = 'trouble']" mode="process.note">
+    <xsl:apply-templates select="." mode="process.note.common-processing">
   
-  <xsl:template match="*[contains(@class, ' topic/note ')][@type = 'trouble']" mode="process.note">
+  <xsl:with-param name="type" select="string(@type)"/>
+    </xsl:apply-templates>
+  </xsl:template>
+  
+  <!-- org.dita-community: If you integrate the org.dita-community.dita13.xhtml plugin
+       with your own xhtml customization, and that customization overrides
+       process.note.common-processing, you will need to merge the changes in the following
+       template into your version of process.note.common-processing.
+       This is true because of XSLT template precedence rules. -->
+  <xsl:template match="*" mode="process.note.common-processing">
+    <xsl:param name="type" select="@type"/>
+    <xsl:param name="title">
+      <xsl:call-template name="getString">
+        <!-- For the parameter, turn "note" into "Note", caution => Caution, etc -->
+        <xsl:with-param name="stringName"
+          select="
+            concat(translate(substring($type, 1, 1), 'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'),
+            substring($type, 2))"
+        />
+      </xsl:call-template>
+    </xsl:param>
+    <div class="{$type}">
     
-    <!-- WEK: Note that there's a design bug in the 1.8.5 OT in that 
-              string files contributed by plugins are never consulted.
-              Thus even though this plugin provides a string file that
-              defines a mapping for "Trouble", it is never used.
-              
-              Also, the formatting of the title is controlled by the CSS,
-              using @class value "{type}title}. But there is no extension
-              point for extending the CSS to add additional entries.
-              
-      -->
-  <xsl:apply-templates select="." mode="process.note.common-processing">
-    <!-- Force the type to note, in case new unrecognized values are added
-         before translations exist (such as Warning) -->
-    <xsl:with-param name="type" select="string(@type)"/>
-  </xsl:apply-templates>
+    <xsl:call-template name="commonattributes">
+        <xsl:with-param name="default-output-class" select="$type"/>
+  </xsl:call-template>
+      <xsl:call-template name="setidaname"/>
+      <!-- Normal flags go before the generated title; revision flags only go on the content. -->
+      <xsl:apply-templates select="*[contains(@class, ' ditaot-d/ditaval-startprop ')]/prop" mode="ditaval-outputflag"/>
+      <!-- org.dita-community: Hard-code notetitle as a fallback to troubletitle. If you use the CSS DITA-OT extension
+           you can add a style rule for the troubletitle class. -->
+      <span class="{$type}title notetitle">
+    <xsl:value-of select="$title"/>
+    <!-- org.dita-community: Suppress the ColonSymbol for "trouble" -->
+  <xsl:if test="not($type = 'trouble')">
+          <xsl:call-template name="getString">
+            <xsl:with-param name="stringName" select="'ColonSymbol'"/>
+          </xsl:call-template>
+        </xsl:if>
+      </span>
+<xsl:text> </xsl:text>
+      <xsl:apply-templates select="*[contains(@class, ' ditaot-d/ditaval-startprop ')]/revprop"
+        mode="ditaval-outputflag"/>
+      <xsl:apply-templates/>
+      <!-- Normal end flags and revision end flags both go out after the content. -->
+      <xsl:apply-templates select="*[contains(@class, ' ditaot-d/ditaval-endprop ')]" mode="out-of-line"/>
+    </div>
+
 </xsl:template>
 
 </xsl:stylesheet>
