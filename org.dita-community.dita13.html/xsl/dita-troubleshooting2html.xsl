@@ -74,6 +74,7 @@
         <xsl:otherwise>ul</xsl:otherwise>
       </xsl:choose>
     </xsl:param>
+    <!-- org.dita-community: generate-task-label processing has been removed from here. -->
     <xsl:choose>
       <xsl:when test="*[contains(@class, ' task/step ')] and not(*[contains(@class, ' task/step ')][2])">
         <!-- Single step. Process any stepsection before the step (cannot appear after). -->
@@ -105,6 +106,26 @@
         </xsl:apply-templates>
       </xsl:otherwise>
     </xsl:choose>
+  </xsl:template>
+
+<!-- Suppress responsibleParty -->
+  <xsl:template match="*[contains(@class, ' troubleshooting/responsibleParty ')]" priority="1">
+    <!-- suppress it -->
+  </xsl:template>
+
+  <!-- *** Template for task-related troubleshooting *** -->
+
+  <!-- This template renders tasktroubleshooting and steptroubleshooting
+       as if they were note type="trouble".
+  -->
+  <xsl:template
+    match="
+      *[contains(@class, ' task/steptroubleshooting ')
+      or contains(@class, ' task/tasktroubleshooting ')]"
+    priority="5">
+    <xsl:apply-templates select="." mode="process.note.common-processing">
+      <xsl:with-param name="type" select="'trouble'"/>
+    </xsl:apply-templates>
   </xsl:template>
 
 </xsl:stylesheet>
