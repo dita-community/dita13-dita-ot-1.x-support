@@ -49,6 +49,18 @@
         keyref="svg-graphic-02"/></svg-container> </p>
     </fig>
     <fig
+      id="fig_ucn_tvf_qs">
+      <title>SVG With Reference to an Image File</title>
+      <p>
+      <svg-container>
+        <svg:svg xmlns:svg="http://www.w3.org/2000/svg" width="400" height="300">
+          <svg:image xmlns:xlink="http://www.w3.org/1999/xlink"            
+            xlink:href="../svg/resources/easydita-logo.png" width="400" height="300"/>
+        </svg:svg>
+      </svg-container>
+      </p>
+    </fig>
+    <fig
       id="fig_eg1_ln3_bs">
       <title>SVG With Image Specified as data:image URI</title>
       <desc>This graphic includes animation and a bitmap image encoded within the <xmlatt>href</xmlatt> attribute as base-64-encoded data using the data: URN scheme.</desc>
