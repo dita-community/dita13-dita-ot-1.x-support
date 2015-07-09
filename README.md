@@ -6,7 +6,7 @@ new DITA 1.3 vocabulary using the 1.x version of
 the DITA Open Toolkit (the 2.x version of the Open Toolkit
 has DITA 1.3 support built in).
 
-Update 9 July 2015: The first public draft of the DITA 1.3 spec is available for public review until August 7. Official announcement is here: https://lists.oasis-open.org/archives/dita/201507/msg00033.html
+*Update 9 July 2015:* The first public draft of the DITA 1.3 spec is available for public review until August 7. Official announcement is here: https://lists.oasis-open.org/archives/dita/201507/msg00033.html
 
 Note that this support is only for vocabulary, it does
 not include support for branch filtering or scoped keys,
