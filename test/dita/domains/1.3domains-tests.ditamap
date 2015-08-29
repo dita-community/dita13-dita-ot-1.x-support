@@ -14,6 +14,14 @@
     href="svg/svg-graphics.xml#graphic-02"
     format="svg"
   />
+  <!-- Create a reference to an image included
+       in an SVG so that the OT will
+       copy the image to the output.
+    -->
+  <keydef keys="easydita-logo"
+    href="svg/resources/easydita-logo.png"
+    format="png"
+    />
   <topicref
     keys="domain-tests"
     href="topics/dita13-domain-tests.dita">

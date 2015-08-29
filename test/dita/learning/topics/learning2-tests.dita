@@ -8,24 +8,48 @@
     <section> <title>Interactions with no feedback</title> <p>These interactions have no feedback. They reflect the simplest use of the markup.</p> <lcOpenQuestion2 id="lcOpenQuestion_kgx_1wc_jp">
       <lcQuestion2>This is text within lcQuestion2 but before first paragraph. <p>The struggle of class against class is what kind of struggle? </p><p>Explain your answer.</p></lcQuestion2>
       </lcOpenQuestion2> 
-      <lcSingleSelect2 id="lcSingleSelect_tq4_bxc_jp">
-      <lcQuestion2>Single select: Choose the correct answer:</lcQuestion2>
+      <lcSingleSelect2>
+        <lcQuestion2>
+          <p>Is the documentation available?</p>
+          <p>Reference:
+            <ul><li>ANSI/ISO/EN etc.</li>
+              <li> &lt;further technical norms listed></li></ul></p>
+          <p>Acceptance criteria:<ul id="ul_rzg_vqf_qs">
+              <li>Technical Documentation is in local langauge</li>
+              <li>Technical Documentation is at site</li>
+            </ul></p>
+        </lcQuestion2>
       <lcAnswerOptionGroup2>
         <lcAnswerOption2>
-          <lcAnswerContent2>42</lcAnswerContent2>
+          <lcAnswerContent2>Yes</lcAnswerContent2>
         </lcAnswerOption2>
         <lcAnswerOption2>
-          <lcAnswerContent2>What is 6x7</lcAnswerContent2>
-        </lcAnswerOption2>
-        <lcAnswerOption2>
-          <lcAnswerContent2>Life is an illusion</lcAnswerContent2>
-        </lcAnswerOption2>
-        <lcAnswerOption2>
-          <lcAnswerContent2>Neatness always counts</lcAnswerContent2>
-          <lcCorrectResponse2/>
+          <lcAnswerContent2>No</lcAnswerContent2>
         </lcAnswerOption2>
       </lcAnswerOptionGroup2>
-      </lcSingleSelect2> 
+      </lcSingleSelect2>
+      <p>True/False question:</p>
+      <lcTrueFalse2>        
+        <lcQuestion2>
+          <p>Is the documentation available?</p>
+          <p>Reference:
+            <ul><li>ANSI/ISO/EN etc.</li>
+              <li> &lt;further technical norms listed></li></ul></p>
+          <p>Acceptance criteria:<ul id="ul_rzg_vqf_qs">
+              <li>Technical Documentation is in local langauge</li>
+              <li>Technical Documentation is at site</li>
+            </ul></p>
+        </lcQuestion2>
+        
+        <lcAnswerOptionGroup2>
+          <lcAnswerOption2>
+            <lcAnswerContent2>Yes</lcAnswerContent2>
+          </lcAnswerOption2>
+          <lcAnswerOption2>
+            <lcAnswerContent2>No</lcAnswerContent2>
+          </lcAnswerOption2>
+        </lcAnswerOptionGroup2>
+      </lcTrueFalse2>
       <p>A single-select question with multiple paragraphs in the question.</p>
       <lcSingleSelect2 id="ssel-multipara-question">
       <lcQuestion2>
