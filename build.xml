@@ -111,7 +111,7 @@
 			</fileset>
 		</copy>
     <!-- Integrate the deployed plugins: -->
-    <ant antfile="${dita-ot-dir}/integrator.xml" target="integrate"/>
+    <ant dir="${dita-ot-dir}" antfile="integrator.xml" target="integrate"/>
 
 	</target>
 	
