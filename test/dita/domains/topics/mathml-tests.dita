@@ -40,6 +40,11 @@
           </dlentry>
         </dl>
       </equation-figure>
+    <p>Block equation inline within a paragraph. The equation has leading and trailing punctuation that should be rendered on the same line.</p>
+    <p>This is before the equation<equation-inline><mathml>
+      <mathmlref
+        href="../mathml/mathml-equation-01.mathml"/>
+      </mathml>. After the equation. There is a period (.) immediately following the equation.</equation-inline></p>
     
   </body>
 </topic>
