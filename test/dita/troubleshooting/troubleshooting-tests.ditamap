@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA 1.3 Map//EN" "map.dtd">
 <map>
- <title>Troubleshooting Element Tests</title>
-  <topicref
-    href="topic.dita"/>
+  <title>Troubleshooting Element Tests</title>
+  <topicref href="topic.dita"/>
+  <topicref href="troublesome-task.dita"/>
 </map>

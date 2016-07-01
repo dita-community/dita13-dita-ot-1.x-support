@@ -20,4 +20,11 @@
 
 <langlist name="dita13html">
     <lang xml:lang="en"    filename="strings-en.xml"/>
+<!-- RNT: point country-specific English locales to strings-en.xml -->
+  <lang xml:lang="en-au" filename="strings-en.xml"/>
+  <lang xml:lang="en-ca" filename="strings-en.xml"/>
+  <lang xml:lang="en-gb" filename="strings-en.xml"/>
+  <lang xml:lang="en-nz" filename="strings-en.xml"/>
+  <lang xml:lang="en-us" filename="strings-en.xml"/>
+  <lang xml:lang="en-za" filename="strings-en.xml"/>
 </langlist>
